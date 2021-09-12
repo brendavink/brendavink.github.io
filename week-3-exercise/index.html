@@ -2,215 +2,94 @@
 <html>
 	<head></head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-</style>
-<script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-    
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-    
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}    
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
+    <head>
+      <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+    <style>
+      body {
+        font-family: 'Crimson Pro', serif;
+        font-size: 20px;
       }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
+    </style>
+    <style>
+      * {
+        box-sizing: border-box;
       }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
-    }
-    </script>
-    
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      </style>
 	<body>
-		
-	<h1 style="color:orangered;">Who am I? <br>
-        Brenda Vinkemeier</h1>
+		<div style="background-color: #ffffff; padding: 25px 25px 25px 25px;">
 
-<br/>
+  <h1 style="text-align: center; color: #c965ca;">Who am I? Brenda Vinkemeier</h1>
+ <br>
 
-<div style="background-color: #de07e1;">
-	<h1 style="color:#c965ca;">Growing Up</h2>
-	<p>
+	<h2 style="color:#3acdf2;">Growing Up
+  <hr></h2>
+	<p style="color: #8f9596; line-height: 30pt;">
 		I grew up in Belle Plaine, MN; a small town north of Mankato. I graduated with 70 students. 
 	</p>
-	<p style="color:#c59bc6;">
+	<p style="color: #8f9596; line-height: 30pt;">
 		Living in a small town may have has its advantages for some, but if I could do it all over agian I would have chose a different route. In smaller towns you know everyone and everyne knows you, so privacy and a share amount of rumors and judgemebts tend to be the main topic in the hometown bakery every morning.
 	</p>
-	<p style="color:#b5a8b5;">
-		After living in Belle PLaine for way too long, getting married and having four children, my husband and I moved to an island in Florida. Moving to a different state showed us all a different perspecitive on life. You can survive in a different state and do not have to commit to living in the place for eternity. This move allowed us to make new friends and gained a son inlaw. Life is too short to stay put, explore the world, there is so muc more out there to be seen.
+  <p style="color: #8f9596; line-height: 30pt;">
+		After living in Belle PLaine for way too long, getting married and having four children, my husband and I moved to an island in Florida. Moving to a different state showed us all a different perspecitive on life. You can survive in a different state and do not have to commit to living in the place for eternity. This move allowed us to make new friends and gained a son inlaw. Life is too short to stay put, explore the world, there is so much more out there to be seen.
 	</p>
 
 	<br/>
 
-	<h2 style="color:#0568bb;">My Family</h2>
+	<h2 style="color:#3acdf2;">My Family
+  <hr></h2>
 
-	<p style="color: #4589c2;">
+
+	<p style="color: #8f9596; line-height: 30pt;">
 		Family is number one. I no longer live my parents, because I am as old as dirt; well maybe not that old yet. In my fifty years I have managed to be married for 27 years, rasie 4 children and gain bomus kids, which I call my grandsons!
     <br>
 My oldest is a girl, she is married and they blessed me with a grandson named Zachary Apollo (one and half years old). My second daughter is married too and they have blessed me with two grandsons; Brandt Allan (3 years old) and Xander Forest (7 months old). My thrid child, a son is getting married in October and has no children but have two dogs they call their kids, I think it is a gererational thing. Last but not least, my youngest son just bought his first house and is dating a sweet girl, they also have two dogs.<br>
 It is strange to think all of my kids have their own homes and our house is empty, but this has its advantages. </p>
 
-	<ol>
+	<ol style="color: #8f9596; line-height: 30pt;">
 	<li>Less money for car insurance</li>
 	<li>No more yearly upgrades on cell phones</li>
 	<li>Less grocery shopping</li>
 	<li>Less laundry</li>
 	<li>Less yelling and arguing</li>
 	<li>....and I get to be all of their friends now that I am done rasing them!</li>
-	</ol>
-
-    <div class="slideshow-container">
-
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 4</div>
-          <img src="papi-and-gigi.JPG" styke="width:100%">
-          <div class="text">Papi and Gigi holding two grandsons</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 4</div>
-          <img src="daughter-two-grandsons.JPG" style="width:100%">
-          <div class="text">Second daughter and two grandsons</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 4</div>
-          <img src="daughter-grandson.JPG" style="width:100%">
-          <div class="text">Oldest Daughter, son-in-law and grandson</div>
-        </div>
-        <div class="mySlides fade">
-          <div class="numbertext">4 / 4</div>
-          <img src="family.jpg" styke="width:100%">
-          <div class="text">Older family photo in Jamaica</div>
-        </div>
-        
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
-        </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
-        </div>
-</div>
-
-
-
-
-
+	</ol><br>
+  <h2 style="color:#3acdf2;">Some Family Photos
+  <hr></h2>
+  <p style="color: #8f9596; line-height: 30pt;">Below are some family photos to share with all of you:</p>
+  
+  <div class="row">
+    <div class="column">
+      <img src="images/papi-and-gigi.JPG" alt="papi and gig with grubb boys" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/family.jpg" alt="vinkemeier family" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/daughter-grandson.JPG" alt="christina and zachary" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/daughter-two-grandsons.JPG" alt="darian, brandt and xander" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/brandt.JPG" alt="bardt alan" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="images/papi-gig-zachary.JPG" alt="papi gigi and zachary" style="width:100%">
+    </div>
+  </div>
 	</body>
-
-
 </html>
