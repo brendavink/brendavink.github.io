@@ -44,8 +44,10 @@ p {
     background-color: #E0CA3C;
     padding: 30px;
 }
-#img {
-	max-width: 100%;
+#image {
+    width: 30%;
+    margin-right: 5%;
+    float: left;
 }
 h1  {
 	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
