@@ -136,6 +136,19 @@ ol  {
   
   .button1 {background-color: #4CAF50;} /* Green */
   .button2 {background-color: #008CBA;} /* Blue */
+
+  .column {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
 @media screen and (max-width: 300px) {
   .column {
     width: 100%;
