@@ -19,7 +19,7 @@ body {
 	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	margin: 20px;
 }
-#ingredients {
+ingredients {
     padding: 0 30px;
     clear: both;
     border-top: 2px dashed #BA5C12;
