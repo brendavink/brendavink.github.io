@@ -86,10 +86,9 @@ article {
 }
 .lead {
     font-family: 'Josefin Sans', sans-serif;
-    line-height: 2em;
-    font-size: 1.5em;
+    line-height: 32px;
+    font-size: 30px;
     color: #BA5C12;
-	font-size: 40px;
 }
 
 #ingredients {
