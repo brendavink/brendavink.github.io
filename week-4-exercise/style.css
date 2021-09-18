@@ -4,19 +4,19 @@
   
   .left {
 	background-color: #58432e;
-	padding: 20px;
+	padding: 10px;
 	float: left;
-	width: 50%; /* The width is 20%, by default */
+	width: 30%;
   }
   .main {
 	background-color: #f1f1f1;
-	padding: 20px;
+	padding: 10px;
 	float: right;
-	width: 50%; /* The width is 60%, by default */
+	width: 70%;
   }
   /* Use a media query to add a break point at 800px: */
   @media screen and (max-width: 800px) {
-	.left, .main, .right {
+	.left, .main, {
 	  width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
 	}
   }
