@@ -37,16 +37,25 @@ p {
     float: left;
 }
 #article {
-    width: 70%;
-    margin: auto;
+	padding: 0 30px;
+    clear: both;
+    border-top: 2px dashed #BA5C12;
+    border-bottom: 2px dashed #BA5C12;
+    background-color: #FFF5EB;
 }
 #recipe-info {
-    display: flex;
-    padding-bottom: 30px;
+	padding: 0 30px;
+    clear: both;
+    border-top: 2px dashed #BA5C12;
+    border-bottom: 2px dashed #BA5C12;
+    background-color: #FFF5EB;
 }
 #recipe-notes {
-    background-color: #E0CA3C;
-    padding: 30px;
+	padding: 0 30px;
+    clear: both;
+    border-top: 2px dashed #BA5C12;
+    border-bottom: 2px dashed #BA5C12;
+    background-color: #FFF5EB;
 }
 #image {
     width: 30%;
