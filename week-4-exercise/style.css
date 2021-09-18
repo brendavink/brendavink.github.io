@@ -3,7 +3,7 @@ header {
   padding: 30px;
   text-align: center;
   background: #FFEBD6;
-  font-size: 32px;
+  font-size: 52px;
   color: #ab8447;
   margin: auto;
 }
@@ -48,27 +48,32 @@ article {
     width: 70%;
     margin: auto;
 	display: block;
+	font-size: 20px;
 }
 #recipe-info {
 	font-family: 'Josefin Sans', sans-serif;
     display: flex;
     padding-bottom: 30px;
+	font-size: 20px;
 }
 #image {
     width: 30%;
     margin-right: 5%;
     float: left;
+	font-size: 20px;
 }
 #note {
 	font-family: 'Josefin Sans', sans-serif;
     width: 65%;
     float: left;
+	font-size: 20px;
 }
 .lead {
     font-family: 'Josefin Sans', sans-serif;
     line-height: 2em;
     font-size: 1.5em;
     color: #BA5C12;
+	font-size: 20px;
 }
 
 #ingredients {
@@ -78,6 +83,7 @@ article {
     border-top: 2px dashed #BA5C12;
     border-bottom: 2px dashed #BA5C12;
     background-color: #FFF5EB;
+	font-size: 20px;
 }
 ul {
 	font-family: 'Josefin Sans', sans-serif;
@@ -88,6 +94,7 @@ ul {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+	font-size: 20px;
 }
 ul li {
 	font-family: 'Josefin Sans', sans-serif;
@@ -96,6 +103,7 @@ ul li {
     padding-bottom: 5px;
     border-bottom: 1px solid;
     border-color: #3E2F5B;
+	font-size: 20px;
 }
 #directions {
 	font-family: 'Josefin Sans', sans-serif;
@@ -105,16 +113,19 @@ ul li {
     background-color: #b69674;
     color: white;
     border-bottom: 2px dashed white;
+	font-size: 20px;
 }
 a  {
 	font-family: 'Josefin Sans', sans-serif;
 	text-decoration: none;
 	color: #2d4178;
+	font-size: 20px;
 }
 ol  {
 	font-family: 'Josefin Sans', sans-serif;
 	line-height: 32px;
 	padding-bottom: 16px;
+	font-size: 20px;
 	font-size: 20px;
 }
 
