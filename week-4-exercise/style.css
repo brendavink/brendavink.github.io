@@ -5,7 +5,29 @@ html {
 *, *:before, *:after  {
 	box-sizing: inherit;
 }
-
+body {
+    background-color: #FFEBD6;
+    margin: 0;
+}
+header {
+    width: 70%;
+    margin: auto;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+article {
+    width: 70%;
+    margin: auto;
+}
+#recipe-info {
+    display: flex;
+    padding-bottom: 30px;
+}
 img {
 	max-width: 100%;
 }
