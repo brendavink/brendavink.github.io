@@ -5,19 +5,19 @@ html {
 *, *:before, *:after  {
 	box-sizing: inherit;
 }
-body {
-	background-color: #ab8447;
-	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
-	margin: 20px;
-}
 .header {
 	width: 70%;
   padding: 20px;
   text-align: center;
   background: #442b03;
-  font-size: 45px;
+  font-size: 40px;
 font-color: #ab8447;
 margin: auto;
+}
+body {
+	background-color: #ab8447;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	margin: 20px;
 }
 #ingredients {
     padding: 0 30px;
@@ -32,7 +32,7 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-article {
+#article {
     width: 70%;
     margin: auto;
 }
@@ -44,58 +44,13 @@ article {
     background-color: #E0CA3C;
     padding: 30px;
 }
-img {
+#img {
 	max-width: 100%;
-}
-.topnav {
-  	background-color: #ab8447;
-	position: fixed;
-	top: 0;
-  	width: 100%; 
-}
-.topnav a {
-  	float: left;
-  	color: #442b03;
-  	text-align: center;
-  	padding: 14px 16px;
-  	text-decoration: none;
-  	font-size: 17px;
-}
-.container {
-	font-family: 'Oswald', sans-serif;
-	display: grid;
-	grid-template-columns: repeat (3, 4fr);
-	background-color: #ffffff;
-	grid-template-rows: repeat (3, 4fr);
-	grid-gap: 20px 20px 20px 20px;
-	padding: 30px 30px 30px 30px;
-	grid-auto-flow: dense;
-	font-size: 20px;
-	line-height: 32px;
 }
 h1  {
 	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	color: #ffffff;
 	font-size: 45px;
-	padding-top: 20px;
-}
-h4  {
-	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
-	color: #442b03;
-	font-size: 20px;
-}
-quote  {
-	color: #442b03;
-	font-size: 18pt;
-	font-style: italic;
-	padding-top: 20px;
-	align-content: center;
-	alignment-baseline: middle;
-	}
-quote-author  {
-	color: #442b03;
-	font-size: 16pt;
-	font-weight: bold;
 	padding-top: 20px;
 }
 a  {
