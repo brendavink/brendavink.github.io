@@ -4,17 +4,12 @@ header {
   text-align: center;
   background: #FFEBD6;
   font-size: 52px;
-  color: #ab8447;
+  color: #58432e;
   margin: auto;
 }
 body {
     background-color: #FFEBD6;
     margin: 0;
-}
-header {
-	font-family: 'Josefin Sans', sans-serif;
-    width: 70%;
-    margin: auto;
 }
 h2 {
 	font-family: 'Josefin Sans', sans-serif;
