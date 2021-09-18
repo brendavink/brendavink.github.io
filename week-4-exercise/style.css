@@ -6,13 +6,26 @@ html {
 	box-sizing: inherit;
 }
 body {
-    background-color: #FFEBD6;
-    margin: 0;
+	background-color: #ab8447;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	margin: 0;
 }
-header {
-    width: 70%;
-    margin: auto;
+
+.header {
+	width: 70%;
+  padding: 20px;
+  text-align: center;
+  background: #442b03;
+  font-size: 45px;
+font-color: #ab8447;
+margin: auto;
 }
+#ingredients {
+    padding: 0 30px;
+    clear: both;
+    border-top: 2px dashed #BA5C12;
+    border-bottom: 2px dashed #BA5C12;
+    background-color: #FFF5EB;
 p {
     display: block;
     margin-block-start: 1em;
@@ -64,46 +77,27 @@ img {
 	font-size: 20px;
 	line-height: 32px;
 }
-
-body {
-	background-color: #ab8447;
-	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
-	padding: 5px 30px 5px 30px;
-}
-
-.header {
-  padding: 20px;
-  text-align: center;
-  background: #442b03;
-  font-size: 45px;
-font-color: #ab8447;
-}
-
 section {
 	background-color:#d6c4a7;
 	padding: 5px 20px 5px 20px;
 	text-align: center;
 }
-
 p  {
 	font-size: 20px;
 	color: #442b03;
 	line-height: 32px;
 }
-
 h1  {
 	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	color: #ffffff;
 	font-size: 45px;
 	padding-top: 20px;
 }
-
 h4  {
 	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	color: #442b03;
 	font-size: 20px;
 }
-
 quote  {
 	color: #442b03;
 	font-size: 18pt;
@@ -118,7 +112,6 @@ quote-author  {
 	font-weight: bold;
 	padding-top: 20px;
 }
-
 hr  {
 	align: middle;
 	width: 50%;
@@ -133,13 +126,11 @@ a  {
 	text-decoration: none;
 	color: #2d4178;
 }
-
 ol  {
 	line-height: 32px;
 	padding-bottom: 16px;
 	font-size: 20px;
 }
-
 ul  {
 	line-height: 32px;
 	font-size: 20px;
