@@ -41,17 +41,19 @@ article {
     display: flex;
     padding-bottom: 30px;
 }
+#recipe-notes {
+    background-color: #E0CA3C;
+    padding: 30px;
+}
 img {
 	max-width: 100%;
 }
-
 .topnav {
   	background-color: #ab8447;
 	position: fixed;
 	top: 0;
   	width: 100%; 
 }
-
 .topnav a {
   	float: left;
   	color: #442b03;
@@ -60,7 +62,6 @@ img {
   	text-decoration: none;
   	font-size: 17px;
 }
-
 .topnav a:hover {
   	background-color: orange;
   	color: black;
@@ -75,16 +76,6 @@ img {
 	padding: 30px 30px 30px 30px;
 	grid-auto-flow: dense;
 	font-size: 20px;
-	line-height: 32px;
-}
-section {
-	background-color:#d6c4a7;
-	padding: 5px 20px 5px 20px;
-	text-align: center;
-}
-p  {
-	font-size: 20px;
-	color: #442b03;
 	line-height: 32px;
 }
 h1  {
@@ -111,16 +102,6 @@ quote-author  {
 	font-size: 16pt;
 	font-weight: bold;
 	padding-top: 20px;
-}
-hr  {
-	align: middle;
-	width: 50%;
-	border-color: #442b03;
-}
-.hr1 {
-	align: middle;
-	width: 100%;
-	border-color: #442b03;
 }
 a  {
 	text-decoration: none;
