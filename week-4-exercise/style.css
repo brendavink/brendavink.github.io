@@ -59,7 +59,13 @@ image {
 h1  {
 	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	color: #ffffff;
-	font-size: 32px;
+	font-size: 30px;
+	padding-top: 20px;
+}
+h2  {
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	color: #ffffff;
+	font-size: 24px;
 	padding-top: 20px;
 }
 a  {
