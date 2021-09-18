@@ -7,12 +7,12 @@ html {
 }
 .header {
 	width: 70%;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
   background: #442b03;
-  font-size: 40px;
-font-color: #ab8447;
-margin: auto;
+  font-size: 35px;
+  color: #ab8447;
+  margin: auto;
 }
 body {
 	background-color: #ab8447;
