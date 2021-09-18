@@ -39,14 +39,12 @@ article {
 }
 ingredients {
 	padding: 0 30px;
-    clear: both;
     border-top: 2px dashed #BA5C12;
     border-bottom: 2px dashed #BA5C12;
     background-color: #FFF5EB;
 }
 recipe-notes {
 	padding: 0 30px;
-    clear: both;
     border-top: 2px dashed #BA5C12;
     border-bottom: 2px dashed #BA5C12;
     background-color: #FFF5EB;
