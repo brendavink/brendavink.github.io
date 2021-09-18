@@ -32,6 +32,10 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+#note {
+    width: 65%;
+    float: left;
+}
 #article {
     width: 70%;
     margin: auto;
