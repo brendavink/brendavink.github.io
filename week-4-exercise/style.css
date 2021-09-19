@@ -2,12 +2,7 @@
 	float: left;
 	width: 20%; /* The width is 20%, by default */
   }
-  
-  .main {
-	float: left;
-	width: 60%; /* The width is 60%, by default */
-  }
-  
+    
   /* Use a media query to add a breakpoint at 800px: */
   @media screen and (max-width: 800px) {
 	.left, .main, .right {
@@ -78,7 +73,7 @@ article {
     width: 65%;
     float: left;
 	font-size: 20px;
-	background-color: #e5edaf;
+	background-color: #FFF5EB;
 }
 .lead {
     font-family: 'Josefin Sans', sans-serif;
