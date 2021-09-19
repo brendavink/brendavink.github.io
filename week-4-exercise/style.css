@@ -78,8 +78,11 @@ article {
 }
 #note {
 	font-family: 'Josefin Sans', sans-serif;
-    width: 65%;
-    float: left;
+    padding: 30px;
+    margin: 0;
+    clear: both;
+    color: white;
+    border-bottom: 2px dashed white;
 	font-size: 20px;
 	background-color: #FFF5EB;
 }
