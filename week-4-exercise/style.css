@@ -1,22 +1,16 @@
-* {
-	box-sizing: border-box;
+* .left, .right {
+	float: left;
+	width: 20%; /* The width is 20%, by default */
   }
   
-  .left {
-	background-color: #e5edaf;
-	padding: 10px;
-	float: left;
-	max-width: 20%;
-  }
   .main {
-	background-color: #e5edaf;
-	padding: 10px;
-	float: right;
-	max-width: 60%;
+	float: left;
+	width: 60%; /* The width is 60%, by default */
   }
-  /* Use a media query to add a break point at 800px: */
+  
+  /* Use a media query to add a breakpoint at 800px: */
   @media screen and (max-width: 800px) {
-	.left, .main, {
+	.left, .main, .right {
 	  width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
 	}
   }
