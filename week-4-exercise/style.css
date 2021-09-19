@@ -1,20 +1,35 @@
-* {
-	box-sizing: border-box;
-  }
-  .column {
-	float: left;
-	padding: 20px;
-  }
-  .left {
-	width: 25%;
-  }
-  .right {
-	width: 75%;
-  }
-  .row:after {
+.row:after {
 	content: "";
 	display: table;
-	clear: both;
+	clear: both
+  }
+  
+  .column-66 {
+	float: left;
+	width: 66.66666%;
+	padding: 20px;
+  }
+  
+  .column-33 {
+	float: left;
+	width: 33.33333%;
+	padding: 20px;
+  }
+  img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+  }
+  
+  @media screen and (max-width: 1000px) {
+	.column-66,
+	.column-33 {
+	  width: 100%;
+	  text-align: center;
+	}
+	img {
+	  margin: auto;
+	}
   }
 header {
 	width: 90%;
