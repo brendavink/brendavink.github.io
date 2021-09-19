@@ -1,5 +1,5 @@
 .container {
-	padding: 64px;
+	padding: 50px;
   }
   .row:after {
 	content: "";
@@ -8,12 +8,12 @@
   } 
   .column-66 {
 	float: left;
-	width: 66.66666%;
+	width: 30%;
 	padding: 20px;
   }
   .column-33 {
 	float: left;
-	width: 33.33333%;
+	width: 60%;
 	padding: 20px;
   }
   img {
