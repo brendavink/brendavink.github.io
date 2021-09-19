@@ -6,7 +6,7 @@
   .right 
   {
 	float: right;
-	width: 50%; 
+	width: 60%; 
   }
   @media screen and (max-width: 800px) {
 	.left, .main, .right {
@@ -17,7 +17,7 @@ header {
 	width: 70%;
   padding: 30px;
   text-align: center;
-  background-color: #a5b442
+  background-color: #a5b442;
   font-size: 75px;
   color: #58432e;
   margin: auto;
