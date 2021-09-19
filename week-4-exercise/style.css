@@ -6,13 +6,13 @@
 	background-color: #FFEBD6;
 	padding: 10px;
 	float: left;
-	width: 100%;
+	max-width: 100%;
   }
   .main {
 	background-color: #FFEBD6;
 	padding: 20px;
 	float: right;
-	width: 100%;
+	max-width: 100%;
   }
   /* Use a media query to add a break point at 800px: */
   @media screen and (max-width: 800px) {
