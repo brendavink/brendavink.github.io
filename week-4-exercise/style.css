@@ -3,13 +3,13 @@
   }
   
   .left {
-	background-color: #FFEBD6;
+	background-color: #e5edaf;
 	padding: 10px;
 	float: left;
 	max-width: 20%;
   }
   .main {
-	background-color: #FFEBD6;
+	background-color: #e5edaf;
 	padding: 10px;
 	float: right;
 	max-width: 60%;
@@ -24,7 +24,7 @@ header {
 	width: 70%;
   padding: 30px;
   text-align: center;
-  background: #FFEBD6;
+  background: #e5edaf;
   font-size: 75px;
   color: #58432e;
   margin: auto;
@@ -83,6 +83,7 @@ article {
     width: 65%;
     float: left;
 	font-size: 20px;
+	background-color: #FFF5EB;
 }
 .lead {
     font-family: 'Josefin Sans', sans-serif;
