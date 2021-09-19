@@ -6,7 +6,7 @@
   .right 
   {
 	float: right;
-	width: 65%; 
+	width: 60%; 
   }
   @media screen and (max-width: 800px) {
 	.left, .right {
