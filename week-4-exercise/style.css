@@ -1,5 +1,11 @@
-* .left, .right {
+* .left, 
+{
 	float: left;
+	width: 20%; /* The width is 20%, by default */
+  }
+  .right 
+  {
+	float: right;
 	width: 20%; /* The width is 20%, by default */
   }
     
@@ -13,7 +19,7 @@ header {
 	width: 70%;
   padding: 30px;
   text-align: center;
-  background: ;
+  background-color: #b0c712;
   font-size: 75px;
   color: #58432e;
   margin: auto;
