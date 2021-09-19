@@ -79,7 +79,7 @@ article {
     padding: 30px;
     margin: 0;
     clear: both;
-    color: white;
+	color: #58432e;
     border-bottom: 2px dashed white;
 	font-size: 20px;
 	background-color: #FFF5EB;
@@ -88,7 +88,7 @@ article {
     font-family: 'Josefin Sans', sans-serif;
     line-height: 32px;
     font-size: 30px;
-    color: #BA5C12;
+    color: #58432e;
 }
 
 #ingredients {
