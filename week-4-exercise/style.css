@@ -24,13 +24,14 @@ header {
 	width: 70%;
   padding: 30px;
   text-align: center;
-  background: #e5edaf;
+  background: ;
   font-size: 75px;
   color: #58432e;
   margin: auto;
 }
 body {
     background-color: #b0c712;
+	background-image: url('images/cookie-background.jpg');
     margin: 0;
 }
 h2 {
@@ -83,7 +84,7 @@ article {
     width: 65%;
     float: left;
 	font-size: 20px;
-	background-color: #FFF5EB;
+	background-color: #e5edaf;
 }
 .lead {
     font-family: 'Josefin Sans', sans-serif;
@@ -96,8 +97,8 @@ article {
 	font-family: 'Josefin Sans', sans-serif;
     padding: 0 30px;
     clear: both;
-    border-top: 2px dashed #BA5C12;
-    border-bottom: 2px dashed #BA5C12;
+    border-top: 2px dashed #91a318;
+    border-bottom: 2px dashed #91a318;
     background-color: #FFF5EB;
 	font-size: 20px;
 }
