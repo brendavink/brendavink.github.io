@@ -5,7 +5,7 @@
   }
   .right 
   {
-	float: left;
+	float: middle;
 	width: 55%; 
   }
   @media screen and (max-width: 800px) {
@@ -14,7 +14,7 @@
 	}
   }
 header {
-	width: 70%;
+	width: 80%;
   padding: 10px;
   text-align: center;
   background-color: #a5b442;
@@ -87,7 +87,7 @@ article {
 .lead {
     font-family: 'Josefin Sans', sans-serif;
     line-height: 32px;
-    font-size: 30px;
+    font-size: 25px;
     color: #58432e;
 }
 
