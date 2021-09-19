@@ -7,15 +7,12 @@
 	float: left;
 	padding: 10px;
   }
-  
   .left {
 	width: 25%;
   }
-  
   .right {
 	width: 75%;
   }
-  
   /* Clear floats after the columns */
   .row:after {
 	content: "";
@@ -176,7 +173,11 @@ ol  {
 	display: table;
 	clear: both;
   }
-
+  @media screen and (max-width: 600px) {
+	.column {
+	  width: 100%;
+	}
+  }
 @media screen and (max-width: 300px) {
   .column {
     width: 100%;
