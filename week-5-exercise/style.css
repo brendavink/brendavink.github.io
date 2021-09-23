@@ -6,12 +6,12 @@
 	display: table;
 	clear: both
   } 
-  .column-66 {
+  .column {
 	float: left;
 	width: 30%;
 	padding: 20px;
   }
-  .column-33 {
+  .column {
 	float: left;
 	width: 60%;
 	padding: 20px;
