@@ -298,7 +298,7 @@ p1 {
 	grid-row: 3 / span 2;
 	  background-color: #e4d6ca;
 	  padding: 0px;
-	  color: #e4d6ca;
+	  color: #5b381a;
   }
 .row:after {
 	content: "";
