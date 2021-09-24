@@ -76,6 +76,8 @@ p1 {
 .item1 {
   grid-column: 1;
   grid-row: 1;
+  margin: 0;
+  padding: 0px;
 }
 
 .item2 {
