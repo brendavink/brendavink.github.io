@@ -293,6 +293,11 @@ p1 {
 	background-color: #e4d6ca;
 	padding: 20px;
 }
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
 .item4 {
   grid-column: 2;
   grid-row: 2;
@@ -432,3 +437,4 @@ ol  {
     width: 100%;
   }
 }
+
