@@ -13,10 +13,6 @@ h1 {
     margin-inline-end: 0px;
     font-weight:bolder;
 	color: #5b381a;
-}abody {
-    background-image: url('images/cookie-background.jpg');
-    margin: 0px;
-	padding: 45px;
 }
 h1 {
 	font-family: 'Josefin Sans', sans-serif;
@@ -95,6 +91,7 @@ p1 {
   grid-row: 3 / span 2;
 	background-color: #5b381a;
 	padding: 30px;
+	margin: 20px;
 }
 #ingredients {
 	font-family: 'Josefin Sans', sans-serif;
