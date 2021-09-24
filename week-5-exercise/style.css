@@ -90,8 +90,6 @@ p1 {
   grid-column: 1;
   grid-row: 3 / span 2;
 	background-color: #5b381a;
-	padding: 30px;
-	margin: 20px;
 }
 #ingredients {
 	font-family: 'Josefin Sans', sans-serif;
