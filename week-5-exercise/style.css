@@ -293,6 +293,13 @@ p1 {
 	background-color: #e4d6ca;
 	padding: 20px;
 }
+.item6 {
+	grid-column: 1;
+	grid-row: 3 / span 2;
+	  background-color: #e4d6ca;
+	  padding: 0px;
+	  color: #e4d6ca;
+  }
 .row:after {
 	content: "";
 	display: table;
@@ -305,10 +312,15 @@ p1 {
 }
 .item5 {
   grid-column: 1;
-  grid-row: 3 / span 2;
+  grid-row: 4 / span 2;
 	background-color: #e4d6ca;
 	padding: 0px;
 }
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
 #ingredients {
 	font-family: 'Josefin Sans', sans-serif;
     padding: 0 30px;
