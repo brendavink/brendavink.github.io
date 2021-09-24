@@ -93,8 +93,8 @@ p1 {
 .item5 {
   grid-column: 1;
   grid-row: 3 / span 2;
-	background-color: #e4d6ca;
-	padding: 0px;
+	background-color: #5b381a;
+	padding: 30px;
 }
 #ingredients {
 	font-family: 'Josefin Sans', sans-serif;
