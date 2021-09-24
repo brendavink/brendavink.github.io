@@ -295,7 +295,7 @@ p1 {
 }
 .item6 {
 	grid-column: 1;
-	grid-row: 3 / span 2;
+	grid-row: 2 / span 2;
 	  background-color: #e4d6ca;
 	  padding: 0px;
 	  color: #5b381a;
