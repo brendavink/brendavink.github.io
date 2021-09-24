@@ -79,6 +79,7 @@ p1 {
   margin: 0;
   padding: 0px;
   background-color: #e4d6ca;
+  display: block;
 }
 
 .item2 {
