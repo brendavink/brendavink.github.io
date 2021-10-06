@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+.fullSundae{
+    height:500px;
+    position:static;
+}
+
+.fullSundae > .iceCreamScoop{
+    height: 100px;
+}
+
+.fullSundae > .cherry{
+    position:absolute;
+    top:10px;
+    left:50%;
+}
+
+.glass{
+    position:relative;
+    height:60%;
+}
+
+.glass > .iceCreamScoop{
+    height:33%;
+    position:relative;
+}
+
+.iceCreamScoop.topScoop{
+    right:20%;
+}
+
+.iceCreamScoop.middleScoop{
+    left:20%;
+}
+
+.cherry.topCherry{
+    position:absolute;
+    left: 5px;
+    top:5px;
+}
+
+.cherry.bottomCherry{
+    position:absolute;
+    left: 5px;
+    bottom:15px;
+}
