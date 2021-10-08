@@ -6,6 +6,7 @@ padding: 35px;
 }
 h1 {
   font-family: 'Patrick Hand', cursive;
+  background-color: #e4d6ca;
   display: block;
   font-size: 60px;
   font-weight:bolder;
@@ -61,12 +62,10 @@ ul li {
 #directions {
 	font-family: 'Patrick Hand', cursive;
     margin: 0;
-    clear: both;
     background-color: #ffffff;
     color: #5b381a;
     border-bottom: 2px dashed white;
 	font-size: 20px;
-	color: #5b381a;
 }
 a  {
 	font-family: 'Patrick Hand', cursive;
@@ -81,7 +80,7 @@ ol  {
 	color: #5b381a;
 }
   .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #de7012;
     border: none;
     color: white;
     padding: 16px 32px;
@@ -97,11 +96,11 @@ ol  {
   .button1 {
     background-color: white; 
     color: black; 
-    border: 2px solid #4CAF50;
+    border: 2px solid #de7012;
   }
   
   .button1:hover {
-    background-color: #4CAF50;
+    background-color: #de7012;
     color: white;
   }
 @media only screen and (max-width: 620px) {
