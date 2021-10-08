@@ -14,8 +14,6 @@ p {
 font-family: 'Josefin Sans', sans-serif;
   display: block;
   font-size: 20px;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
 color: #5b381a;
 }
 .lead {
@@ -33,19 +31,20 @@ margin: 0px;
 display: grid;
 grid-gap: 0px;
 padding: 0px;
+margin: 0px;
 }
 
 .grid-item {
 text-align: left;
 padding: 0px;
 font-size: 30px;
+margin: 0px;
 }
 
 .item1 {
 grid-column: 1;
 grid-row: 1;
 margin: 0;
-padding: 0px;
 background-color: #e4d6ca;
 display: block;
 float: left;
