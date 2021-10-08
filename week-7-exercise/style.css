@@ -4,15 +4,6 @@ body {
   margin: 20px;
 padding: 15px;
 }
-header {
-width: 90%;
-padding: 10px;
-text-align: center;
-background-color: #a5b442;
-font-size: 70px;
-color: #58432e;
-margin: auto;
-}
 h1 {
   font-family: 'Patrick Hand', cursive;
   display: block;
@@ -26,18 +17,11 @@ p {
   font-size: 20px;
 color: #5b381a;
 }
-p1 {
-  font-family: 'Patrick Hand', cursive;
-  display: block;
-  font-size: 20px;
-color: #ffffff;
-}
 .lead {
   font-family: 'Patrick Hand', cursive;
   line-height: 32px;
   font-size: 25px;
   color: #58432e;
-padding: 0px;
 }
 .main {
   float: left;
@@ -47,7 +31,7 @@ padding: 0px;
 .right {
   background-color: #e5e5e5;
   float: left;
-  width: 50%;
+  width: 45%;
   padding: 0px;
   margin-top: 7px;
   text-align: left;
