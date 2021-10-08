@@ -16,7 +16,7 @@ font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
 color: #5b381a;
 }
-.lead {
+.p1 {
   font-family: 'Josefin Sans', sans-serif;
   line-height: 32px;
   font-size: 25px;
@@ -55,7 +55,7 @@ padding: 20px 20px 20px 20px;
 grid-column: 2;
 grid-row: 1;
 background-color: #e4d6ca;
-padding: 20px 20px 20px 20px;
+padding: 0px 0px 0px 0px;
 float: left;
 }
 .item3 {
@@ -68,7 +68,7 @@ float: left;
 .item4 {
 grid-column: 2;
 grid-row: 2;
-padding: 20px 20px 20px 20px;
+padding: 20px 0px 20px 0px;
 float: left;
 }
 .item5 {
@@ -79,7 +79,7 @@ display: block;
 }
 #ingredients {
 font-family: 'Josefin Sans', sans-serif;
-padding: 20px 20px 20px 20px;
+padding: 20px 10px 20px 10px;
   clear: both;
   background-color: #e4d6ca;
 font-size: 20px;
@@ -88,20 +88,20 @@ ul {
 font-family: 'Josefin Sans', sans-serif;
   display: block;
   list-style-type: disc;
-  padding: 20px 20px 20px 20px;
+  padding: 10px;
 font-size: 20px;
 }
 ul li {
 font-family: 'Josefin Sans', sans-serif;
   list-style-type: none;
-  padding: 20px 20px 20px 20px;
+  padding: 10px;
   border-bottom: 1px solid;
   border-color: #3E2F5B;
 font-size: 20px;
 }
 #directions {
 font-family: 'Josefin Sans', sans-serif;
-padding: 20px 20px 20px 20px;
+padding: 20px;
   margin: 0;
   clear: both;
   background-color: #ffffff;
@@ -126,7 +126,7 @@ color: #5b381a;
 .button {
 border: none;
 color: white;
-padding: 30px;
+padding: 10px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
@@ -137,24 +137,19 @@ cursor: pointer;
 .button2 {background-color: #da7d1b;}
 #note {
 font-family: 'Josefin Sans', sans-serif;
-padding: 30px;
+padding: 10px;
   margin: 0;
   clear: both;
 color: #FFFfff;
 font-size: 20px;
 background-color: #5b381a;
 }
-.p1 {
-  font-family: 'Josefin Sans', sans-serif;
-  line-height: 32px;
-  font-size: 25px;
-  color: #58432e;
-}
 #recipe-info {
 font-family: 'Josefin Sans', sans-serif;
   display: flex;
-  padding: 0px 20px 0px 20px;
+  padding: 20px;
 font-size: 35px;
+margin: 0;
 }
 
 @media screen and (max-width: 600px) {
