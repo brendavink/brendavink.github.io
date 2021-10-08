@@ -44,6 +44,8 @@ padding: 10px;
     background-color: #e5e5e5;
 	font-size: 20px;
   padding: 25px;
+  text-align: left;
+  width: 50%;
 }
 ul {
 	font-family: 'Patrick Hand', cursive;
@@ -108,7 +110,7 @@ ol  {
   }
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
-  .menu, .main, .right {
+  .main, .right {
     width: 100%;
   }
 }
