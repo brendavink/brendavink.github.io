@@ -23,17 +23,6 @@ h1 {
     font-weight:bolder;
 	color: #5b381a;
 }
-h1 {
-	font-family: 'Josefin Sans', sans-serif;
-    display: block;
-    font-size: 65px;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight:bolder;
-	color: #5b381a;
-}
 p {
 	font-family: 'Josefin Sans', sans-serif;
     display: block;
