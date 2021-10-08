@@ -54,7 +54,7 @@ padding: 0px;
 }
 #ingredients {
 	font-family: 'Patrick Hand', cursive;
-    padding: 30px;
+    padding: 10px;
     clear: both;
     background-color: #e4d6ca;
 	font-size: 20px;
@@ -63,11 +63,7 @@ ul {
 	font-family: 'Patrick Hand', cursive;
     display: block;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+    padding-inline-start: 20px;
 	font-size: 20px;
 }
 ul li {
@@ -81,7 +77,7 @@ ul li {
 }
 #directions {
 	font-family: 'Patrick Hand', cursive;
-    padding: 30px;
+    padding: 20px;
     margin: 0;
     clear: both;
     background-color: #ffffff;
@@ -100,7 +96,6 @@ ol  {
 	font-family: 'Patrick Hand', cursive;
 	line-height: 32px;
 	padding-bottom: 16px;
-	font-size: 20px;
 	font-size: 20px;
 	color: #5b381a;
 }
