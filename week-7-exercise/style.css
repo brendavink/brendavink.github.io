@@ -1,13 +1,13 @@
 
 body {
   background-image: url('images/cookie-background.jpg');
-  background-color: #e4d6ca;
+  background-color: #e5e5e5;
   margin: 0;
 padding: 35px;
 }
 h1 {
   font-family: 'Patrick Hand', cursive;
-  background-color: #ffffff;
+  background-color: #e5e5e5;
   display: block;
   font-size: 60px;
   font-weight:bolder;
