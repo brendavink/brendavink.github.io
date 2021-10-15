@@ -178,9 +178,9 @@ margin: 0;
   padding: 10px;
   }
 .grid-container {
-  display: table-column;
   grid-gap: 0px;
   margin: 0px;
+  size: 100%;
   }
   .item1 {
     color: #e4d6ca;
