@@ -102,6 +102,21 @@ background-color: #da7d1b;
 .button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+div2 {
+  width: 100%;
+  height: 100%;
+  background-color: #5b381a;
+  position: relative;
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+
+@keyframes myfirst {
+  0%   {background-color:#da7d1b; left:0px; right:200px;}
+  25%  {background-color:#5b381a; right:200px; left:0px;}
+  50%  {background-color:#da7d1b; left:200px; right:200px;}
+  75%  {background-color:#5b381a; right:0px; left:200px;}
+  100% {background-color:#da7d1b; left:2000px; right:0px;}
+}
 
 #recipe-info {
 font-family: 'Josefin Sans', sans-serif;
