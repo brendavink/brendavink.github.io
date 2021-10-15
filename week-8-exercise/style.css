@@ -119,6 +119,8 @@ margin: 0;
   [class*="column-"] {
     width: 100%;
   }
+  .column-6 {width: 50%;}
+  .column-12 {width: 100%;}
 }
 
 /*ipad*/
