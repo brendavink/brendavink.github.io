@@ -174,14 +174,6 @@ padding: 45px;
         background-color: #e4d6ca;
       font-size: 16px;
       }
-  h1 {
-    font-family: 'Josefin Sans', sans-serif;
-      display: block;
-      font-size: 35px;
-      font-weight:bolder;
-    color: #e4d6ca;
-    background-color: #5b381a;
-    }
 /*mobile*/
 @media only screen and (max-width: 500px) {
   [class*="column-"] {
