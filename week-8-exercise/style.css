@@ -122,8 +122,6 @@ margin: 0;
 
 /*ipad*/
 @media only screen and (max-width: 800px) {
-  .column-6 {width: 50%;}
-  .column-12 {width: 50%;}
   [class*="column-"] {
     width: 100%;
   }
