@@ -121,7 +121,7 @@ margin: 0;
 /*desktop*/
 @media only screen and (max-width: 1316px) {
   .column-6 {width: 50%;}
-
+  .column-12 {width: 50%;}
 }
 
 
