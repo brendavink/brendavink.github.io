@@ -111,11 +111,11 @@ div2 {
 }
 
 @keyframes myfirst {
-  0%   {background-color:#da7d1b; left:2000px; right:200px;}
-  25%  {background-color:#5b381a; right:200px; left:200px;}
-  50%  {background-color:#da7d1b; left:200px; right:200px;}
-  75%  {background-color:#5b381a; right:200px; left:200px;}
-  100% {background-color:#da7d1b; left:2000px; right:200px;}
+  0%   {background-color:#da7d1b; left:0px; right:200px;}
+  25%  {background-color:#5b381a; right:200px; left:0px;}
+  50%  {background-color:#da7d1b; left:0px; right:200px;}
+  75%  {background-color:#5b381a; right:200px; left:0px;}
+  100% {background-color:#da7d1b; left:0px; right:200px;}
 }
 
 #recipe-info {
