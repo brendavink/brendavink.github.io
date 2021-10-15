@@ -116,6 +116,9 @@ margin: 0;
 /*--------Media Queries---------*/
 /*desktop*/
 @media only screen and (max-width: 1700px) {
+  [class*="column-"] {
+    width: 100%;
+  }
   .column-6 {width: 50%;}
   .column-12 {width: 50%;}
 }
