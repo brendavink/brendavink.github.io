@@ -128,6 +128,9 @@ margin: 0;
   [class*="column-"] {
     width: 100%;
   }
+  body {
+    background-image: url('images/cookie-background.jpg');
+  }
   h1 {
     font-family: 'Josefin Sans', sans-serif;
       display: block;
@@ -141,6 +144,9 @@ margin: 0;
 @media only screen and (max-width: 300px) {
   [class*="column-"] {
     width: 100%;
+  }
+  body {
+    background-image: url('images/cookie-background.jpg');
   }
   h1 {
     font-family: 'Josefin Sans', sans-serif;
