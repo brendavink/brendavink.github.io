@@ -127,6 +127,7 @@ margin: 0;
 @media only screen and (max-width: 800px) {
   [class*="column-"] {
     width: 100%;
+    padding: 0%;
   }
   body {
     background-image: url('images/cookie-background.jpg');
@@ -146,6 +147,7 @@ margin: 0;
 @media only screen and (max-width: 300px) {
   [class*="column-"] {
     width: 100%;
+    padding: 0%;
   }
   body {
     background-image: url('images/cookie-background.jpg');
