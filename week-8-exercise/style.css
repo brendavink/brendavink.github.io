@@ -42,7 +42,6 @@ padding: 0px 20px 0px 20px;
 #ingredients {
 font-family: 'Josefin Sans', sans-serif;
 padding: 10px;
-  clear: both;
   background-color: #e4d6ca;
 font-size: 20px;
 }
@@ -65,7 +64,6 @@ font-size: 20px;
 font-family: 'Josefin Sans', sans-serif;
 padding: 10px;
   margin: 0;
-  clear: both;
   background-color: #ffffff;
   color: #5b381a;
   border-bottom: 2px dashed white;
@@ -108,8 +106,8 @@ background-color: #5b381a;
 #recipe-info {
 font-family: 'Josefin Sans', sans-serif;
   display: flex;
-  padding: 20px;
-font-size: 35px;
+  padding: 10px;
+font-size: 30px;
 margin: 0;
 }
 
@@ -118,7 +116,7 @@ margin: 0;
 @media only screen and (max-width: 1800px) {
   [class*="column-"] {
     float: left;
-    padding: 15px;
+    padding: 10px;
   }
   .column-3 {width: 25%;}
   .column-6 {width: 50%;}
@@ -164,7 +162,7 @@ padding: 45px;
     background-color: #5b381a;
     }
 /*mobile*/
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 500px) {
   [class*="column-"] {
     width: 100%;
     padding: 0%;
