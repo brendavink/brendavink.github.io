@@ -146,18 +146,18 @@ padding: 45px;
   }
   #directions {
     font-family: 'Josefin Sans', sans-serif;
-    padding: 0px;
+    padding: 10px;
       margin: 0;
       background-color: #ffffff;
       color: #5b381a;
       border-bottom: 2px dashed white;
-    font-size: 14px;
+    font-size: 16px;
     }
     #ingredients {
       font-family: 'Josefin Sans', sans-serif;
-      padding: 0px;
+      padding: 10px;
         background-color: #e4d6ca;
-      font-size: 14px;
+      font-size: 16px;
       }
   h1 {
     font-family: 'Josefin Sans', sans-serif;
@@ -188,7 +188,7 @@ padding: 45px;
     }
     #directions {
       font-family: 'Josefin Sans', sans-serif;
-      padding: 0px;
+      padding: 5px;
         margin: 0;
         background-color: #ffffff;
         color: #5b381a;
@@ -197,7 +197,7 @@ padding: 45px;
       }
       #ingredients {
         font-family: 'Josefin Sans', sans-serif;
-        padding: 0px;
+        padding: 5px;
           background-color: #e4d6ca;
         font-size: 14px;
         }
