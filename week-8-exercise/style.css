@@ -179,8 +179,6 @@ margin: 0;
   .item1 {
     color: #e4d6ca;
   background-color: #5b381a;
-  grid-column: 1;
-  grid-row: 1;
   margin: 0;
   display: block;
   padding: 0px 0px 0px 0px;
