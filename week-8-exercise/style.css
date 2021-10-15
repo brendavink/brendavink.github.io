@@ -170,11 +170,8 @@ margin: 0;
 
 /*mobile*/
 @media only screen and (max-width: 500px) {
-
   body {
     background-image: url('images/cookie-background.jpg');
-    margin: 20px;
-  padding: 10px;
   }
   .item1 {
     color: #e4d6ca;
