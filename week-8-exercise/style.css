@@ -130,6 +130,8 @@ margin: 0;
   }
   body {
     background-image: url('images/cookie-background.jpg');
+    margin: 0px;
+  padding: 0px;
   }
   h1 {
     font-family: 'Josefin Sans', sans-serif;
@@ -147,6 +149,8 @@ margin: 0;
   }
   body {
     background-image: url('images/cookie-background.jpg');
+    margin: 0px;
+  padding: 0px;
   }
   h1 {
     font-family: 'Josefin Sans', sans-serif;
