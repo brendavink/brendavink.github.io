@@ -172,14 +172,6 @@ margin: 0;
     margin: 20px;
   padding: 10px;
   }
-  .container {
-    margin: 0px;
-    }
-    .grid-container {
-      grid-gap: 0px;
-      padding: 0px 20px 0px 20px;
-      margin: 0px;
-      }
   .item1 {
     color: #e4d6ca;
   background-color: #5b381a;
