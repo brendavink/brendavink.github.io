@@ -98,17 +98,11 @@ display: inline-block;
 font-size: 16px;
 margin: 4px 2px;
 cursor: pointer;
+border-radius: 16px;
+background-color: #da7d1b;
 }
-.button2 {background-color: #da7d1b;}
-#note {
-font-family: 'Josefin Sans', sans-serif;
-padding: 10px;
-  margin: 0;
-  clear: both;
-color: #FFFfff;
-font-size: 20px;
-background-color: #5b381a;
-}
+.button:hover {background-color: #14d80f;}
+
 #recipe-info {
 font-family: 'Josefin Sans', sans-serif;
   display: flex;
