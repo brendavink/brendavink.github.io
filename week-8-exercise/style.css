@@ -131,7 +131,7 @@ padding: 45px;
 }
 
 /*ipad*/
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 1000px) {
   [class*="column-"] {
     width: 100%;
     padding: 0%;
@@ -149,7 +149,7 @@ padding: 45px;
   h1 {
     font-family: 'Josefin Sans', sans-serif;
       display: block;
-      font-size: 35px;
+      font-size: 30px;
       font-weight:bolder;
     color: #e4d6ca;
     background-color: #5b381a;
