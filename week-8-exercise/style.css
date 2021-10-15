@@ -41,7 +41,7 @@ padding: 0px 20px 0px 20px;
 }
 #ingredients {
 font-family: 'Josefin Sans', sans-serif;
-padding: 5px 20px 5px 20px;
+padding: 10px;
   clear: both;
   background-color: #e4d6ca;
 font-size: 20px;
@@ -63,7 +63,7 @@ font-size: 20px;
 }
 #directions {
 font-family: 'Josefin Sans', sans-serif;
-padding: 20px;
+padding: 10px;
   margin: 0;
   clear: both;
   background-color: #ffffff;
