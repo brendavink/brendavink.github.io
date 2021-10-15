@@ -177,11 +177,6 @@ margin: 0;
     margin: 20px;
   padding: 10px;
   }
-.grid-container {
-  grid-gap: 0px;
-  margin: 0px;
-  size: 100%;
-  }
   .item1 {
     color: #e4d6ca;
   background-color: #5b381a;
