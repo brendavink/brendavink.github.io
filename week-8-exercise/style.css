@@ -6,7 +6,7 @@
   clear: both;
   display: block;
 }
-[class*="col-"] {
+[class*="column-"] {
   float: left;
   padding: 15px;
 }
@@ -185,7 +185,7 @@ margin: 0;
 
 /*mobile*/
 @media only screen and (max-width: 500px) {
-  [class*="col-"] {
+  [class*="column-"] {
     width: 100%;
   }
   body {
