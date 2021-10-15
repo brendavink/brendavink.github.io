@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-image: url('images/cookie-background.jpg');
   margin: 30px;
