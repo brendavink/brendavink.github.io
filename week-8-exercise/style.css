@@ -16,9 +16,8 @@ body {
 padding: 45px;
 }
 img {
-  border-radius: 50%;
-  width: 200px;
-  height: 300px;
+  width: 800px;
+  height: 800px;
   object-fit: contain;
 }
 h1 {
