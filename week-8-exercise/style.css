@@ -124,12 +124,28 @@ margin: 0;
 @media only screen and (max-width: 800px) {
   .column-6 {width: 50%;}
   .column-12 {width: 50%;}
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+      display: block;
+      font-size: 35px;
+      font-weight:bolder;
+    color: #e4d6ca;
+    background-color: #5b381a;
+    }
 }
 /*mobile*/
 @media only screen and (max-width: 300px) {
   [class*="column-"] {
     width: 100%;
   }
+  h1 {
+    font-family: 'Josefin Sans', sans-serif;
+      display: block;
+      font-size: 35px;
+      font-weight:bolder;
+    color: #e4d6ca;
+    background-color: #5b381a;
+    }
   }
 
 
