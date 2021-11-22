@@ -23,11 +23,6 @@
 	text-decoration: none;
 	font-family: 'Nunito', sans-serif;
   }
-  .topnav a:hover {
-	background-color: #dd8442;
-	color: white;
-	font-family: 'Nunito', sans-serif;
-  }
   .topnav .icon {
 	display: none;
   }
