@@ -256,6 +256,9 @@ color: #f1f1f1;
 	transition: 0.5s;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 500;
+	background-color: #f1f1f1;
+	border: 1px;
+	border-color: #dd8442;
   }
   
   .secondarybutton span:after {
