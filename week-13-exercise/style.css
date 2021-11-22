@@ -165,13 +165,13 @@
 }
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
-  color: #eee7e4;
+  color: #f1f1f1;
 }
 .dot-container {
     text-align: center;
     padding: 10px;
     background: #793415;
-	color: #eee7e4;
+	color: #f1f1f1;
 }
 .dot {
   cursor: pointer;
@@ -181,7 +181,7 @@
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-color: #eee7e4;
+color: #f1f1f1;
 }
 /*Button Styles*/
 .primarybutton {
@@ -189,7 +189,7 @@ color: #eee7e4;
 	border-radius: 4px;
 	background-color: #dd8442;
 	border: none;
-	color: #eee7e4;
+	color: #f1f1f1;
 	text-align: center;
 	font-size: 20px;
 	padding: 10px;
@@ -198,7 +198,7 @@ color: #eee7e4;
 	cursor: pointer;
 	margin: 5px;
 	font-family: 'Nunito', sans-serif;
-	font-weight: 700;
+	font-weight: 500;
   }
   
   .primarybutton span {
@@ -207,7 +207,7 @@ color: #eee7e4;
 	position: relative;
 	transition: 0.5s;
 	font-family: 'Nunito', sans-serif;
-	font-weight: 700;
+	font-weight: 500;
   }
   
   .primarybutton span:after {
@@ -218,25 +218,25 @@ color: #eee7e4;
 	right: -20px;
 	transition: 0.5s;
 	font-family: 'Nunito', sans-serif;
-	font-weight: 700;
+	font-weight: 500;
   }
   
   .primarybutton:hover span {
-	padding-right: 8px;
+	padding-right: 20px;
 	font-family: 'Nunito', sans-serif;
-	font-weight: 800;
+	font-weight: 600;
   }
   
   .primarybutton:hover span:after {
 	opacity: 1;
 	right: 0;
 	font-family: 'Nunito', sans-serif;
-	font-weight: 700;
+	font-weight: 600;
   }
   .secondarybutton {
 	display: inline-block;
 	border-radius: 4px;
-	background-color: #eee7e4;
+	background-color: #f1f1f1;
 	border: none;
 	color: black;
 	text-align: center;
@@ -269,7 +269,7 @@ color: #eee7e4;
   }
   
   .secondarybutton:hover span {
-	padding-right: 8px;
+	padding-right: 20px;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 500;
   }
