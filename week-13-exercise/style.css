@@ -170,8 +170,8 @@
 .dot-container {
     text-align: center;
     padding: 10px;
-    background: #793415;
-	color: #f1f1f1;
+    background: #e0dab9;
+	color: #dd8442;
 }
 .dot {
   cursor: pointer;
@@ -181,7 +181,7 @@
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-color: #f1f1f1;
+color: #dd8442;
 }
 /*Button Styles*/
 .primarybutton {
