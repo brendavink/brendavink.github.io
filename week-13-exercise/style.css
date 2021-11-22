@@ -6,10 +6,12 @@
 	font-family: 'Nunito', sans-serif;
 	max-width: 75%;
 	margin: auto;
+	background-image: url('images/background-for-website.jpg');
+	background-repeat: no-repeat;
   }
   .topnav {
 	overflow: hidden;
-	background-color: white;
+	background-color: #f1f1f1;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 700;
   }
@@ -55,6 +57,8 @@ grid-column-gap: 20px;
   .middle,
   .right {
 	padding: 10px;
+	text-align: center;
+	size: 33%;
   }
   
   .left {
@@ -69,11 +73,18 @@ grid-column-gap: 20px;
 	grid-area: right;
   }
   
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+  
   .footer {
 	grid-area: footer;
-	background-color: #f1f1f1;
 	padding: 10px;
 	text-align: center;
+	background-color: #f1f1f1;
   }
   
 /*Button Styles*/
@@ -236,7 +247,7 @@ h1
 {
 font-family: 'Nunito', sans-serif;
 	line-height: 35px;
-	font-size: 30px;
+	font-size: 45px;
 	font-weight: 700;
 }
 h2
