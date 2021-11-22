@@ -333,13 +333,13 @@ color: #eee7e4;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 1px;
-  background-color: #1b1814;
+  background-color: #f1f1f1;
   padding: 5px;
   color: #eee7e4;
 }
 
 .grid-container > div {
-  background-color: #1b1814;
+  background-color: #f1f1f1;
   text-align: left;
   padding: 5px 5px 5px 5px;
   font-size: 18px;
@@ -447,7 +447,7 @@ p
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 10px;
-	background-color: #1b1814;
+	background-color: #f1f1f1;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	font-weight: lighter;
