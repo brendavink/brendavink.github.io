@@ -270,12 +270,18 @@ color: #dd8442;
 	transition: 0.5s;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 500;
+	background-color: #f1f1f1;
+	border: 1px;
+	border-color: #dd8442;
   }
   
   .secondarybutton:hover span {
 	padding-right: 20px;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 500;
+	background-color: #f1f1f1;
+	border: 1px;
+	border-color: #dd8442;
   }
   
   .secondarybutton:hover span:after {
@@ -283,6 +289,9 @@ color: #dd8442;
 	right: 0;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 500;
+	background-color: #f1f1f1;
+	border: 1px;
+	border-color: #dd8442;
   }
   .button {
 	display: inline-block;
