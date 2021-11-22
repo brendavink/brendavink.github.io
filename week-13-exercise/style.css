@@ -58,12 +58,12 @@
 	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-gap: 8px;
-	background-color: #1b1814;
+	background-color: #e0dab9;
 	padding: 5px;
 	  color: #eee7e4;
   }
   .grid-container > div {
-	background-color: #1b1814;
+	background-color: #e0dab9;
 	text-align: left;
 	padding: 10px 20px 10px 20px;
 	font-size: 18px;
@@ -121,7 +121,7 @@
   header {
 	  margin-left: auto;
 	  margin-right: auto;
-	  background-color: #1b1814;
+	  background-color: #e0dab9;
   }
   .column2 {
 	float: left;
@@ -133,10 +133,10 @@
 	clear: both;
   }
   .row {
-	  background-color: #1b1814;
+	  background-color: #e0dab9;
   }
   .row:after {
-	  background-color: #1b1814;
+	  background-color: #e0dab9;
 	content: "";
 	display: table;
 	clear: both;
