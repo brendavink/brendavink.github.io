@@ -4,7 +4,7 @@
   
   body {
 	font-family: 'Nunito', sans-serif;
-	max-width: 80%;
+	max-width: 95%;
 	margin: auto;
 	background-image: url('images/background-for-website.jpg');
 	background-repeat: repeat;
@@ -21,6 +21,11 @@
 	color: black;
 	text-align: center;
 	text-decoration: none;
+	font-family: 'Nunito', sans-serif;
+  }
+  .topnav a:hover {
+	background-color: #dd8442;
+	color: white;
 	font-family: 'Nunito', sans-serif;
   }
   .topnav .icon {
