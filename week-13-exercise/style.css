@@ -60,6 +60,14 @@
   *, *:before, *:after {
 	box-sizing: inherit;
   }
+  .grid-container image{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 8px;
+	background-image: url('images/hero-image.jpg');
+	padding: 0px;
+	  color: #eee7e4;
+  }
   .grid-container {
 	display: grid;
 	grid-template-columns: auto auto auto;
