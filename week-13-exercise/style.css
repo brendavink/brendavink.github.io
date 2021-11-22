@@ -63,10 +63,9 @@
   .grid-container image{
 	display: grid;
 	grid-template-columns: auto auto auto;
-	grid-gap: 8px;
+	grid-gap: 0px;
 	background-image: url('images/hero-image.jpg');
-	padding: 0px;
-	  color: #eee7e4;
+	padding: 30px;
   }
   .grid-container {
 	display: grid;
