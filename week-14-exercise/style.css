@@ -3,8 +3,7 @@
   }
   
   body {
-	font-family: 'Comfortaa', cursive;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	max-width: 80%;
 	margin: auto;
 	background-image: url('images/background-for-website.jpg');
@@ -13,8 +12,7 @@ font-family: 'Nunito', sans-serif;
   .topnav {
 	overflow: hidden;
 	background-color: #fafaf7;
-	font-family: 'Comfortaa', cursive;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	padding: 10px 10px 10px 10px;
 	margin: auto;
@@ -25,14 +23,12 @@ font-family: 'Nunito', sans-serif;
 	color: black;
 	text-align: center;
 	text-decoration: none;
-	font-family: 'Comfortaa', cursive;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
   }
   .topnav a:hover {
 	background-color: #dd8442;
 	color: #fafaf7;
-	font-family: 'Comfortaa', cursive;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
   }
   .topnav .icon {
 	display: none;
@@ -216,8 +212,7 @@ color: white;
 	transition: all 0.5s;
 	cursor: pointer;
 	margin: 5px;
-	font-family: 'Comfortaa', cursive;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
   }
   
@@ -226,8 +221,7 @@ font-family: 'Nunito', sans-serif;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
-	font-family: 'Comfortaa', cursive;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
   }
   
@@ -238,23 +232,20 @@ font-family: 'Nunito', sans-serif;
 	top: 0;
 	right: -20px;
 	transition: 0.5s;
-	font-family: 'Comfortaa', cursive;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
   }
   
   .primarybutton:hover span {
 	padding-right: 20px;
-	font-family: 'Comfortaa', cursive;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
   }
   
   .primarybutton:hover span:after {
 	opacity: 1;
 	right: 0;
-	font-family: 'Comfortaa', cursive;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
   }
   .secondarybutton {
@@ -278,8 +269,7 @@ font-family: 'Nunito', sans-serif;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
-	font-family: 'Comfortaa', cursive;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	background-color: #fafaf7;
 	border: 1px;
@@ -293,8 +283,7 @@ font-family: 'Nunito', sans-serif;
 	top: 0;
 	right: -20px;
 	transition: 0.5s;
-	font-family: 'Comfortaa', cursive;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	background-color: #fafaf7;
 	border: 1px;
@@ -303,8 +292,7 @@ font-family: 'Nunito', sans-serif;
   
   .secondarybutton:hover span {
 	padding-right: 20px;
-	font-family: 'Comfortaa', cursive;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	background-color: #fafaf7;
 	border: 1px;
@@ -314,8 +302,7 @@ font-family: 'Nunito', sans-serif;
   .secondarybutton:hover span:after {
 	opacity: 1;
 	right: 0;
-	font-family: 'Comfortaa', cursive;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	background-color: #fafaf7;
 	border: 1px;
@@ -368,22 +355,18 @@ hr
 #typography
 {
 	padding-top:0;
-	font-family: 'Comfortaa', cursive;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 ul 
 {
 	line-height: 20px;
 	list-style-type: circle;
-	font-family: 'Comfortaa', cursive;
-	font-family: 'Comfortaa', cursive;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 ol 
 {
 	line-height: 20px;
-	font-family: 'Comfortaa', cursive;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 a 
 {
@@ -393,22 +376,19 @@ a
 #title
 {
 	font-size: 60px;
-	font-family: 'Comfortaa', cursive;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 900;
 }
 h1
 {
-	font-family: 'Comfortaa', cursive;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 45px;
 	font-weight: 700;
 	color: black;
 }
 h2
 {
-	font-family: 'Comfortaa', cursive;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 22px;
 	line-height: 25px;
 	font-weight: 600;
@@ -416,8 +396,7 @@ h2
 }
 p
 {
-	font-family: 'Comfortaa', cursive;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: 500;
