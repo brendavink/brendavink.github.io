@@ -420,13 +420,22 @@ p
 	line-height: 20px;
 	font-weight: 500;
 }
-.grid-container {
-  grid-template-columns: auto auto auto;
-  grid-gap: 8px;
-  background-color: #fafaf7;
-  padding: 20px;
-	color: #eee7e4;
-}
+.grid-container2 {
+	grid-template-columns: auto auto auto;
+	grid-gap: 8px;
+	background-color: #fafaf7;
+	padding: 5px;
+	  color: #1b1814;
+	  max-width: 100%;
+  }
+  .grid-container {
+	grid-template-columns: auto auto auto;
+	grid-gap: 8px;
+	background-color: #fafaf7;
+	padding: 20px;
+	  color: #eee7e4;
+	  max-width: 100%;
+  }
 /*Media Queries*/
 @media screen and (max-width: 600px) {
 	.grid-container2 {
@@ -435,6 +444,7 @@ p
 		background-color: #fafaf7;
 		padding: 5px;
 		  color: #1b1814;
+		  max-width: 100%;
 	  }
 	  .grid-container {
 		grid-template-columns: auto auto auto;
@@ -442,6 +452,7 @@ p
 		background-color: #fafaf7;
 		padding: 20px;
 		  color: #eee7e4;
+		  max-width: 100%;
 	  }
 h1
 {
@@ -509,13 +520,14 @@ p
 		margin-bottom: 20px;
 	  }
 	 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 500px) {
 	.grid-container2 {
 		grid-template-columns: auto auto auto;
 		grid-gap: 8px;
 		background-color: #fafaf7;
 		padding: 5px;
 		  color: #1b1814;
+		  max-width: 100%;
 	  }
 	  .grid-container {
 		grid-template-columns: auto auto auto;
@@ -523,6 +535,7 @@ p
 		background-color: #fafaf7;
 		padding: 20px;
 		  color: #eee7e4;
+		  max-width: 100%;
 	  }
 	.topnav.responsive {
 		position: relative;
