@@ -72,7 +72,7 @@
 	grid-template-columns: auto auto auto;
 	grid-gap: 8px;
 	background-color: #fafaf7;
-	padding: 5px;
+	padding: 20px;
 	  color: #eee7e4;
   }
   .grid-container > div {
