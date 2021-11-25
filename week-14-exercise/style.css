@@ -3,7 +3,8 @@
   }
   
   body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+font-family: 'Nunito', sans-serif;
 	max-width: 80%;
 	margin: auto;
 	background-image: url('images/background-for-website.jpg');
@@ -12,7 +13,8 @@
   .topnav {
 	overflow: hidden;
 	background-color: #fafaf7;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+font-family: 'Nunito', sans-serif;
 	font-weight: 700;
 	padding: 10px 10px 10px 10px;
 	margin: auto;
@@ -23,12 +25,14 @@
 	color: black;
 	text-align: center;
 	text-decoration: none;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+font-family: 'Nunito', sans-serif;
   }
   .topnav a:hover {
 	background-color: #dd8442;
 	color: #fafaf7;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+font-family: 'Nunito', sans-serif;
   }
   .topnav .icon {
 	display: none;
@@ -213,7 +217,8 @@ color: #dd8442;
 	transition: all 0.5s;
 	cursor: pointer;
 	margin: 5px;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+font-family: 'Nunito', sans-serif;
 	font-weight: 500;
   }
   
@@ -222,7 +227,8 @@ color: #dd8442;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+font-family: 'Nunito', sans-serif;
 	font-weight: 500;
   }
   
@@ -233,12 +239,14 @@ color: #dd8442;
 	top: 0;
 	right: -20px;
 	transition: 0.5s;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+font-family: 'Nunito', sans-serif;
 	font-weight: 500;
   }
   
   .primarybutton:hover span {
 	padding-right: 20px;
+	font-family: 'Comfortaa', cursive;
 	font-family: 'Nunito', sans-serif;
 	font-weight: 600;
   }
@@ -246,7 +254,8 @@ color: #dd8442;
   .primarybutton:hover span:after {
 	opacity: 1;
 	right: 0;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+font-family: 'Nunito', sans-serif;
 	font-weight: 600;
   }
   .secondarybutton {
@@ -270,7 +279,8 @@ color: #dd8442;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+font-family: 'Nunito', sans-serif;
 	font-weight: 500;
 	background-color: #fafaf7;
 	border: 1px;
@@ -284,7 +294,8 @@ color: #dd8442;
 	top: 0;
 	right: -20px;
 	transition: 0.5s;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+font-family: 'Nunito', sans-serif;
 	font-weight: 500;
 	background-color: #fafaf7;
 	border: 1px;
@@ -293,7 +304,8 @@ color: #dd8442;
   
   .secondarybutton:hover span {
 	padding-right: 20px;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+font-family: 'Nunito', sans-serif;
 	font-weight: 500;
 	background-color: #fafaf7;
 	border: 1px;
@@ -303,7 +315,8 @@ color: #dd8442;
   .secondarybutton:hover span:after {
 	opacity: 1;
 	right: 0;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+font-family: 'Nunito', sans-serif;
 	font-weight: 500;
 	background-color: #fafaf7;
 	border: 1px;
@@ -356,19 +369,22 @@ hr
 #typography
 {
 	padding-top:0;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+	font-family: 'Nunito', sans-serif;
 }
 ul 
 {
 	line-height: 20px;
 	list-style-type: circle;
 	font-family: 'Comfortaa', cursive;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+	font-family: 'Nunito', sans-serif;
 }
 ol 
 {
 	line-height: 20px;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+	font-family: 'Nunito', sans-serif;
 }
 a 
 {
@@ -378,12 +394,14 @@ a
 #title
 {
 	font-size: 60px;
-font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+	font-family: 'Nunito', sans-serif;
 	font-weight: 900;
 }
 h1
 {
-font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+	font-family: 'Nunito', sans-serif;
 	line-height: 35px;
 	font-size: 45px;
 	font-weight: 700;
@@ -391,7 +409,8 @@ font-family: 'Nunito', sans-serif;
 }
 h2
 {
-font-family: 'Nunito', sans-serif;
+	font-family: 'Comfortaa', cursive;
+	font-family: 'Nunito', sans-serif;
 	font-size: 22px;
 	line-height: 25px;
 	font-weight: 300;
@@ -399,6 +418,7 @@ font-family: 'Nunito', sans-serif;
 }
 p
 {
+	font-family: 'Comfortaa', cursive;
 	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
 	line-height: 20px;
