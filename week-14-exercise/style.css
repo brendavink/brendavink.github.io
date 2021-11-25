@@ -408,26 +408,30 @@ p
 /*Media Queries*/
 @media screen and (max-width: 600px) {
 	.grid-container image{
-		grid-template-columns: auto auto auto;
+		grid-template-columns: none;
+        grid-template-rows: 3fr 2fr;
 		grid-gap: 0px;
 		background-image: url('images/hero-image.jpg');
 		padding: 40px;
 		margin: auto;
 	  }
 	  .grid-container {
-		grid-template-columns: auto auto auto;
+		grid-template-columns: none;
+        grid-template-rows: 3fr 2fr;
 		grid-gap: 8px;
 		background-color: #fafaf7;
 		  color: #eee7e4;
 	  }
 	.grid-container2 {
-		grid-template-columns: auto auto auto;
+		grid-template-columns: none;
+        grid-template-rows: 3fr 2fr;
 		grid-gap: 8px;
 		background-color: #fafaf7;
 		  color: #1b1814;
 	  }
 	  .grid-container3 {
-		grid-template-columns: auto auto auto;
+		grid-template-columns: none;
+        grid-template-rows: 3fr 2fr;
 		grid-gap: 20px;
 		background-color: #fafaf7;
 		  color: #1b1814;
@@ -500,26 +504,30 @@ p
 	 
   @media screen and (max-width: 500px) {
 	.grid-container image{
-		grid-template-columns: auto auto auto;
+		grid-template-columns: none;
+        grid-template-rows: 3fr 2fr;
 		grid-gap: 0px;
 		background-image: url('images/hero-image.jpg');
 		padding: 40px;
 		margin: auto;
 	  }
 	  .grid-container {
-		grid-template-columns: auto auto auto;
+		grid-template-columns: none;
+        grid-template-rows: 3fr 2fr;
 		grid-gap: 8px;
 		background-color: #fafaf7;
 		  color: #eee7e4;
 	  }
 	.grid-container2 {
-		grid-template-columns: auto auto auto;
+		grid-template-columns: none;
+        grid-template-rows: 3fr 2fr;
 		grid-gap: 8px;
 		background-color: #fafaf7;
 		  color: #1b1814;
 	  }
 	  .grid-container3 {
-		grid-template-columns: auto auto auto;
+		grid-template-columns: none;
+        grid-template-rows: 3fr 2fr;
 		grid-gap: 20px;
 		background-color: #fafaf7;
 		  color: #1b1814;
