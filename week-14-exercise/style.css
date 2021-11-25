@@ -372,7 +372,7 @@ h1
 h2
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 22px;
+	font-size: 20px;
 	line-height: 25px;
 	font-weight: 600;
 	color: black;
@@ -380,7 +380,7 @@ h2
 p
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 24px;
+	font-size: 16px;
 	line-height: 20px;
 	font-weight: 500;
 }
@@ -521,6 +521,13 @@ p
 		padding: 5px;
 		  color: #1b1814;
 	  }
+	  .grid-container {
+		grid-template-columns: auto auto auto;
+		grid-gap: 8px;
+		background-color: #fafaf7;
+		padding: 20px;
+		  color: #eee7e4;
+	  }
   @media screen and (max-width: 600px) {
 	.topnav.responsive {
 		position: relative;
@@ -560,5 +567,12 @@ p
 		background-color: #fafaf7;
 		padding: 5px;
 		  color: #1b1814;
+	  }
+	  .grid-container {
+		grid-template-columns: auto auto auto;
+		grid-gap: 8px;
+		background-color: #fafaf7;
+		padding: 20px;
+		  color: #eee7e4;
 	  }
 	
