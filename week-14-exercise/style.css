@@ -436,6 +436,12 @@ p
 	  color: #eee7e4;
 	  max-width: 100%;
   }
+  .grid-container > div {
+	background-color: #fafaf7;
+	text-align: left;
+	  letter-spacing: 1px;
+	  font-weight: 300;
+  }
 /*Media Queries*/
 @media screen and (max-width: 600px) {
 	.grid-container2 {
@@ -453,6 +459,12 @@ p
 		padding: 20px;
 		  color: #eee7e4;
 		  max-width: 100%;
+	  }
+	  .grid-container > div {
+		background-color: #fafaf7;
+		text-align: left;
+		  letter-spacing: 1px;
+		  font-weight: 300;
 	  }
 h1
 {
@@ -536,6 +548,12 @@ p
 		padding: 20px;
 		  color: #eee7e4;
 		  max-width: 100%;
+	  }
+	  .grid-container > div {
+		background-color: #fafaf7;
+		text-align: left;
+		  letter-spacing: 1px;
+		  font-weight: 300;
 	  }
 	.topnav.responsive {
 		position: relative;
