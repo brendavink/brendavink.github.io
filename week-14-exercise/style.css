@@ -59,9 +59,6 @@
 	background: #fafaf7;
   }
   
-  *, *:before, *:after {
-	box-sizing: inherit;
-  }
   .grid-container image{
 	display: grid;
 	grid-template-columns: auto auto auto;
