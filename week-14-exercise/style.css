@@ -136,19 +136,6 @@
 	float: left;
 	width: 33.33%;
   }
-  .row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
-  .row {
-	  background-color: #fafaf7;
-  }
-  .row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
   .row {
 	  background-color: #f1f1f1;
   }
