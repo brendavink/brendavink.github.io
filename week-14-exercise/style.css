@@ -67,7 +67,7 @@
 	margin: auto;
   }
   .grid-container {
-	  display: flex;
+	  display: grid;
 	grid-template-columns: auto auto auto;
 	grid-gap: 8px;
 	background-color: #fafaf7;
@@ -388,6 +388,7 @@ p
 	margin: auto;
   }
   .grid-container {
+	  display: none;
 	grid-template-columns: none;
 	grid-gap: 8px;
 	background-color: #fafaf7;
