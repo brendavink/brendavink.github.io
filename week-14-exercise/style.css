@@ -395,6 +395,7 @@ p
 	  color: #eee7e4;
   }
 .grid-container2 {
+	display: flex-wrap: wrap;
 	grid-template-columns: none;
 	grid-gap: 8px;
 	background-color: #fafaf7;
