@@ -388,7 +388,7 @@ p
 	margin: auto;
   }
   .grid-container {
-	  display: flex;
+	  display: flex flexwrap;
 	grid-template-columns: none;
 	grid-gap: 8px;
 	background-color: #fafaf7;
