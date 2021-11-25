@@ -74,28 +74,12 @@
 	padding: 20px;
 	  color: #eee7e4;
   }
-  .grid-container > div {
-	background-color: #fafaf7;
-	text-align: left;
-	padding: 10px 20px 10px 20px;
-	font-size: 18px;
-	  letter-spacing: 1px;
-	  font-weight: 300;
-  }
 .grid-container2 {
 	grid-template-columns: auto auto auto;
 	grid-gap: 8px;
 	background-color: #fafaf7;
 	padding: 5px;
 	  color: #1b1814;
-  }
-  .grid-container2 > div {
-	background-color: #fafaf7;
-	text-align: left;
-	padding: 10px 20px 10px 20px;
-	font-size: 18px;
-	  letter-spacing: 1px;
-	  font-weight: 300;
   }
   .grid-container3 {
 	grid-template-columns: auto auto auto;
@@ -409,24 +393,11 @@ p
 	background-color: #fafaf7;
 	  color: #eee7e4;
   }
-  .grid-container > div {
-	background-color: #fafaf7;
-	text-align: left;
-	font-size: 18px;
-	  letter-spacing: 1px;
-	  font-weight: 300;
-  }
 .grid-container2 {
 	grid-template-columns: auto auto auto;
 	grid-gap: 8px;
 	background-color: #fafaf7;
 	  color: #1b1814;
-  }
-  .grid-container2 > div {
-	background-color: #fafaf7;
-	text-align: left;
-	  letter-spacing: 1px;
-	  font-weight: 300;
   }
   .grid-container3 {
 	grid-template-columns: auto auto auto;
@@ -449,24 +420,11 @@ p
 		background-color: #fafaf7;
 		  color: #eee7e4;
 	  }
-	  .grid-container > div {
-		background-color: #fafaf7;
-		text-align: left;
-		font-size: 18px;
-		  letter-spacing: 1px;
-		  font-weight: 300;
-	  }
 	.grid-container2 {
 		grid-template-columns: auto auto auto;
 		grid-gap: 8px;
 		background-color: #fafaf7;
 		  color: #1b1814;
-	  }
-	  .grid-container2 > div {
-		background-color: #fafaf7;
-		text-align: left;
-		  letter-spacing: 1px;
-		  font-weight: 300;
 	  }
 	  .grid-container3 {
 		grid-template-columns: auto auto auto;
@@ -554,24 +512,11 @@ p
 		background-color: #fafaf7;
 		  color: #eee7e4;
 	  }
-	  .grid-container > div {
-		background-color: #fafaf7;
-		text-align: left;
-		font-size: 18px;
-		  letter-spacing: 1px;
-		  font-weight: 300;
-	  }
 	.grid-container2 {
 		grid-template-columns: auto auto auto;
 		grid-gap: 8px;
 		background-color: #fafaf7;
 		  color: #1b1814;
-	  }
-	  .grid-container2 > div {
-		background-color: #fafaf7;
-		text-align: left;
-		  letter-spacing: 1px;
-		  font-weight: 300;
 	  }
 	  .grid-container3 {
 		grid-template-columns: auto auto auto;
