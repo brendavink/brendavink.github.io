@@ -145,20 +145,28 @@
 	  background-color: #fafaf7;
   }
   .row:after {
-	  background-color: #fafaf7;
+	content: "";
+	display: table;
+	clear: both;
+  }
+  .row {
+	  background-color: #f1f1f1;
+  }
+  .row:after {
+	  background-color: #f1f1f1;
 	content: "";
 	display: table;
 	clear: both;
   }
 .slideshow-container {
   position: relative;
-  background: #e0dab9;
+  background: #f1f1f1;
 }
 .mySlides {
   display: none;
   padding: 30px;
   text-align: center;
-	font-size: 20px;
+	font-size: 18px;
 	color: #1b1814;
 }
 .prev, .next {
@@ -180,13 +188,14 @@
   border-radius: 3px 0 0 3px;
 }
 .prev:hover, .next:hover {
-  color: #dd8442;
+  background-color: rgba(0,0,0,0.8);
+  color: #f1f1f1;
 }
 .dot-container {
     text-align: center;
     padding: 10px;
-    background: #00767f;
-	color: white;
+    background: #e0dab9;
+	color: #dd8442;
 }
 .dot {
   cursor: pointer;
@@ -196,7 +205,7 @@
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-color: white;
+color: #dd8442;
 }
 /*Button Styles*/
 .primarybutton {
@@ -251,17 +260,18 @@ color: white;
   .secondarybutton {
 	display: inline-block;
 	border-radius: 4px;
-	background-color: #fafaf7;
-	border: 1px;
-	border-color: #dd8442;
+	background-color: white;
+	border: 2px solid #dd8442;
 	color: black;
 	text-align: center;
-	font-size: 18px;
-	padding: 8px;
-	width: 150px;
+	font-size: 20px;
+	padding: 10px;
+	width: 200px;
 	transition: all 0.5s;
 	cursor: pointer;
 	margin: 5px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
   }
   
   .secondarybutton span {
@@ -269,11 +279,8 @@ color: white;
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 500;
-	background-color: #fafaf7;
-	border: 1px;
-	border-color: #dd8442;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
   }
   
   .secondarybutton span:after {
@@ -283,30 +290,21 @@ color: white;
 	top: 0;
 	right: -20px;
 	transition: 0.5s;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 500;
-	background-color: #fafaf7;
-	border: 1px;
-	border-color: #dd8442;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
   }
   
   .secondarybutton:hover span {
-	padding-right: 20px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 500;
-	background-color: #fafaf7;
-	border: 1px;
-	border-color: #dd8442;
+	padding-right: 25px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
   }
   
   .secondarybutton:hover span:after {
 	opacity: 1;
 	right: 0;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 500;
-	background-color: #fafaf7;
-	border: 1px;
-	border-color: #dd8442;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
   }
   .button {
 	display: inline-block;
