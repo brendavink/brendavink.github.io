@@ -397,27 +397,7 @@ p
 }
   
 @media screen and (max-width: 650px) {
-	.column {
-	  width: 100%;
-	  display: block;
-	}
-  .card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  .container {
-	padding: 0 16px;
-  }
-  
-  .container::after, .row::after {
-	content: "";
-	clear: both;
-	display: table;
-  }
-  
-  .title {
-	color: grey;
-  }
+
   h1
 {
 	font-family: 'Open Sans', sans-serif;
@@ -449,6 +429,20 @@ p
 }
 /*Media Queries*/
 @media screen and (max-width: 600px) {
+	.grid-container2 {
+		grid-template-columns: auto auto auto;
+		grid-gap: 8px;
+		background-color: #fafaf7;
+		padding: 5px;
+		  color: #1b1814;
+	  }
+	  .grid-container {
+		grid-template-columns: auto auto auto;
+		grid-gap: 8px;
+		background-color: #fafaf7;
+		padding: 20px;
+		  color: #eee7e4;
+	  }
 h1
 {
 	font-family: 'Open Sans', sans-serif;
@@ -514,7 +508,9 @@ p
 		display: block;
 		margin-bottom: 20px;
 	  }
-	  .grid-container2 {
+	 
+  @media screen and (max-width: 400px) {
+	.grid-container2 {
 		grid-template-columns: auto auto auto;
 		grid-gap: 8px;
 		background-color: #fafaf7;
@@ -528,7 +524,6 @@ p
 		padding: 20px;
 		  color: #eee7e4;
 	  }
-  @media screen and (max-width: 600px) {
 	.topnav.responsive {
 		position: relative;
 	}
@@ -561,18 +556,5 @@ p
 	  .topnav input[type=text] {
 		border: 1px solid #ccc;  
 	  }
-	  .grid-container2 {
-		grid-template-columns: auto auto auto;
-		grid-gap: 8px;
-		background-color: #fafaf7;
-		padding: 5px;
-		  color: #1b1814;
-	  }
-	  .grid-container {
-		grid-template-columns: auto auto auto;
-		grid-gap: 8px;
-		background-color: #fafaf7;
-		padding: 20px;
-		  color: #eee7e4;
-	  }
+	
 	
