@@ -508,23 +508,27 @@ p
 		background-image: url('images/hero-image.jpg');
 		padding: 40px;
 		margin: auto;
+		width: auto;
 	  }
 	  .grid-container {
 		grid-template-columns: none;
 		grid-gap: 8px;
 		background-color: #fafaf7;
 		  color: #eee7e4;
+		  width: auto;
 	  }
 	.grid-container2 {
 		grid-template-columns: none;
 		grid-gap: 8px;
 		background-color: #fafaf7;
 		  color: #1b1814;
+		  width: auto;
 	  }
 	  .grid-container3 {
 		grid-gap: 20px;
 		background-color: #fafaf7;
 		  color: #1b1814;
+		  width: auto;
 	  }
 	.topnav.responsive {
 		position: relative;
