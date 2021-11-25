@@ -60,7 +60,6 @@
   }
   
   .grid-container image{
-	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-gap: 0px;
 	background-image: url('images/hero-image.jpg');
@@ -68,7 +67,6 @@
 	margin: auto;
   }
   .grid-container {
-	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-gap: 8px;
 	background-color: #fafaf7;
@@ -84,7 +82,6 @@
 	  font-weight: 300;
   }
 .grid-container2 {
-	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-gap: 8px;
 	background-color: #fafaf7;
@@ -100,7 +97,6 @@
 	  font-weight: 300;
   }
   .grid-container3 {
-	display: grid;
 	grid-template-columns: auto auto auto;
 	grid-gap: 20px;
 	background-color: #fafaf7;
