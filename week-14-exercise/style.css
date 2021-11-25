@@ -368,7 +368,7 @@ a
 h1
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 45px;
+	font-size: 60px;
 	font-weight: 700;
 	color: black;
 }
@@ -383,7 +383,7 @@ h2
 p
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
+	font-size: 24px;
 	line-height: 20px;
 	font-weight: 500;
 }
@@ -404,8 +404,6 @@ p
 	  width: 100%;
 	  display: block;
 	}
-  }
-  
   .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
@@ -423,8 +421,53 @@ p
   .title {
 	color: grey;
   }
+  h1
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: black;
+}
+h2
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	line-height: 25px;
+	font-weight: 600;
+	color: black;
+}
+p
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+}
 /*Media Queries*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) 
+h1
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color: black;
+}
+h2
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	line-height: 25px;
+	font-weight: 600;
+	color: black;
+}
+p
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+}
+{
 	.topnav a:not(:first-child) {display: none;}
 	.topnav a.icon {
 	  float: right;
@@ -468,7 +511,6 @@ p
 		margin-bottom: 20px;
 	  }
 	  .grid-container2 {
-		display: grid;
 		grid-template-columns: auto auto auto;
 		grid-gap: 8px;
 		background-color: #fafaf7;
@@ -509,7 +551,6 @@ p
 		border: 1px solid #ccc;  
 	  }
 	  .grid-container2 {
-		display: grid;
 		grid-template-columns: auto auto auto;
 		grid-gap: 8px;
 		background-color: #fafaf7;
