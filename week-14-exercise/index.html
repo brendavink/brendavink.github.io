@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Nunito:ital,wght@0,200;0,900;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		
+		<div class="row">
+			<div class="topnav" id="myTopnav">
+				<button class="button" style="vertical-align:middle"><span>Home </span></button>
+				<button class="button" style="vertical-align:middle"><span>About</span></button>
+				<button class="button" style="vertical-align:middle"><span>Events</span></button>
+				<button class="button" style="vertical-align:middle"><span>Contact Us</span></button>
+				<div class="search-container">
+					<form action="/action_page.php">
+					  <input type="text" placeholder="Search.." name="search">
+					  <button type="submit"><i class="fa fa-search"></i></button>
+					</form>
+				  </div>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				  <i class="fa fa-bars"></i>
+				</a>
+			  </div></div>	
+			  <div class="gride-container image" style="background-image: url('images/hero-image.jpg');">
+				<div class="header">
+				  <h1>Framework</h1>
+				  <p style="color: black">Connecting students with non-traditional students in a comfortable. </p>
+				  <p><button class="button" style="vertical-align:middle"><span>Learn More </span></button></p>
+				</div></div>			  
+						<div class="grid-container">
+							<div class="item2" style="background-color:#00767f; max-width: 325px; position: center;">
+								<p style="font-weight:700; color: #e0dab9;">Benefits</p>
+								  <p style="font-size: 14px;padding-bottom: 10px;color: #e0dab9;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								  <p><p><button class="button" style="vertical-align:middle"><span>Learn More</span></button></p></div>
+							<div class="item3" style="background-color:#af393a; max-width: 325px; position: center;">
+								<p style="font-weight:700; color: #e0dab9;">Benefits</p>
+								  <p style="font-size: 14px;padding-bottom: 10px;color: #e0dab9;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								  <p><button class="button" style="vertical-align:middle"><span>Learn More</span></button></p></div>  
+							<div class="item4" style="background-color:#59a2d3; max-width: 325px; position: center;">
+								<p style="font-weight:700; color: #e0dab9;">Benefits</p>
+								<p style="font-size: 14px;padding-bottom: 10px;color: #e0dab9;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<p><button class="button" style="vertical-align:middle"><span>Learn More</span></button></p></div>
+						  </div>
+<div class="grid-container">
+	<div class="item1" style="text-align: center; font-size: 24px;color: black; font-weight: 500">More events:</div>
+	<div class="item2">
+		<p style="font-weight:700; color: black;">Event One</p>
+		  <p style="font-size: 14px;padding-bottom: 10px;color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		  <p><button class="secondarybutton" style="vertical-align:middle"><span>Learn More</span></button></p></div>
+	<div class="item3">
+		<p style="font-weight:700; color: black;">Event Two</p>
+	  <p style="font-size: 14px;padding-bottom: 10px;color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> 
+	  <p><button class="secondarybutton" style="vertical-align:middle"><span>Learn More</span></button></p></div>
+	<div class="item4">
+		<p style="font-weight:700; color: black;">Event three</p>
+	  <p style="font-size: 14px; padding-bottom: 10px;color: black;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	  <p><button class="secondarybutton" style="vertical-align:middle"><span>Learn More</span></button></p></div>
+  </div>
+	
+		<div class="grid-container2">
+			<div class="item1" style="text-align: center; font-size: 24px;"><strong>What do people think about the program?</strong></div></div>  
+	  <div class="slideshow-container">
+  
+  <div class="mySlides">
+	<q>Great opportunity! I learned alot by shadowing my mentor.</q>
+	<p class="author">- Elise Kramer</p>
+  </div>
+  
+  <div class="mySlides">
+	<q>Everyone going to college for the first time should be in this progranm.</q>
+	<p class="author">- Kyle Traut</p>
+  </div>
+  
+  <div class="mySlides">
+	<q>The events are awesome. I met so many people, being an older student this program gave me the chance to feel included.</q>
+	<p class="author">- John Smith</p>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  
+  <div class="dot-container">
+	<span class="dot" onclick="currentSlide(1)"></span> 
+	<span class="dot" onclick="currentSlide(2)"></span> 
+	<span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+		  <script>
+  window.onscroll = function() {myFunction()};
+  
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+  
+  function myFunction() {
+	if (window.pageYOffset >= sticky) {
+	  navbar.classList.add("sticky")
+	} else {
+	  navbar.classList.remove("sticky");
+	}
+  }
+  </script>
+	  
+  <script>
+  function myFunction() {
+	var x = document.getElementById("myLinks");
+	if (x.style.display === "block") {
+	  x.style.display = "none";
+	} else {
+	  x.style.display = "block";
+	}
+  }
+  </script>
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+	showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+	showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+	var i;
+	var slides = document.getElementsByClassName("mySlides");
+	var dots = document.getElementsByClassName("dot");
+	if (n > slides.length) {slideIndex = 1}    
+	if (n < 1) {slideIndex = slides.length}
+	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+	}
+	for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	}
+	slides[slideIndex-1].style.display = "block";  
+	dots[slideIndex-1].className += " active";
+  }
+	 
+  window.onscroll = function() {myFunction()};
+  
+
+  var navbar = document.getElementById("navbar");
+  
+ 
+  var sticky = navbar.offsetTop;
+  
+  
+  function myFunction() {
+	if (window.pageYOffset >= sticky) {
+	  navbar.classList.add("sticky")
+	} else {
+	  navbar.classList.remove("sticky");
+	}
+  }
+  </script>
+	  <script>
+  function myFunction() {
+	var x = document.getElementById("myTopnav");
+	if (x.className === "topnav") {
+	  x.className += " responsive";
+	} else {
+	  x.className = "topnav";
+	}
+  }
+  </script>
+			  <div class="grid-container">
+			<div style="background-color: #f1f1f1; color: black; text-align: center;">
+			<p>Framework Copywright 2021</p>
+			</div>
+		  </div>
+		  
+		
+			  
+	
+	</body>
+</html>
