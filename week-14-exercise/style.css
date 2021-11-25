@@ -156,7 +156,7 @@ font-family: 'Nunito', sans-serif;
   }
 .slideshow-container {
   position: relative;
-  background: #fafaf7;
+  background: #e0dab9;
 }
 .mySlides {
   display: none;
@@ -185,13 +185,13 @@ font-family: 'Nunito', sans-serif;
 }
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
-  color: #fafaf7;
+  color: #dd8442;
 }
 .dot-container {
     text-align: center;
     padding: 10px;
-    background: #fafaf7;
-	color: #dd8442;
+    background: #00767f;
+	color: white;
 }
 .dot {
   cursor: pointer;
@@ -201,7 +201,7 @@ font-family: 'Nunito', sans-serif;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-color: #dd8442;
+color: white;
 }
 /*Button Styles*/
 .primarybutton {
