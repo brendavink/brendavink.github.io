@@ -109,7 +109,8 @@
   }
   .item1 {
 	grid-column: 1 / 5;
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	font-weight: 600;
   }
   .item2 { 
