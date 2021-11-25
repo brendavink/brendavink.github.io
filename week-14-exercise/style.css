@@ -67,7 +67,7 @@
 	margin: auto;
   }
   .grid-container {
-	  display: grid;
+	  display: flex;
 	grid-template-columns: auto auto auto;
 	grid-gap: 8px;
 	background-color: #fafaf7;
