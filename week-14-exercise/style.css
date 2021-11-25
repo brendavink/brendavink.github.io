@@ -130,10 +130,6 @@
 	  font-weight: 600;
 	  padding: 20px;
   }
-  .column2 {
-	float: left;
-	width: 33.33%;
-  }
   .row {
 	  background-color: #f1f1f1;
   }
@@ -176,22 +172,7 @@
   background-color: rgba(0,0,0,0.8);
   color: #f1f1f1;
 }
-.dot-container {
-    text-align: center;
-    padding: 10px;
-    background: #e0dab9;
-	color: #dd8442;
-}
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-color: #dd8442;
-}
+
 /*Button Styles*/
 .primarybutton {
 	display: inline-block;
@@ -330,11 +311,6 @@ color: #dd8442;
 	opacity: 1;
 	right: 0;
   }
-hr
-{
-	color:1px solid gray;
-	max-width: 50%;
-}
 #typography
 {
 	padding-top:0;
