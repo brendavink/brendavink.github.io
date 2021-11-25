@@ -428,14 +428,12 @@ p
 	margin: auto;
   }
   .grid-container {
-	  display: flex;
 	grid-template-columns: auto auto auto;
 	grid-gap: 8px;
 	background-color: #fafaf7;
 	  color: #eee7e4;
   }
   .grid-container > div {
-	display: flex;
 	background-color: #fafaf7;
 	text-align: left;
 	font-size: 18px;
@@ -443,21 +441,18 @@ p
 	  font-weight: 300;
   }
 .grid-container2 {
-	display: flex;
 	grid-template-columns: auto auto auto;
 	grid-gap: 8px;
 	background-color: #fafaf7;
 	  color: #1b1814;
   }
   .grid-container2 > div {
-	display: flex;
 	background-color: #fafaf7;
 	text-align: left;
 	  letter-spacing: 1px;
 	  font-weight: 300;
   }
   .grid-container3 {
-	display: flex;
 	grid-template-columns: auto auto auto;
 	grid-gap: 20px;
 	background-color: #fafaf7;
@@ -466,7 +461,6 @@ p
 /*Media Queries*/
 @media screen and (max-width: 600px) {
 	.grid-container image{
-		display: flex;
 		grid-template-columns: auto auto auto;
 		grid-gap: 0px;
 		background-image: url('images/hero-image.jpg');
@@ -474,14 +468,12 @@ p
 		margin: auto;
 	  }
 	  .grid-container {
-		display: flex;
 		grid-template-columns: auto auto auto;
 		grid-gap: 8px;
 		background-color: #fafaf7;
 		  color: #eee7e4;
 	  }
 	  .grid-container > div {
-		display: flex;
 		background-color: #fafaf7;
 		text-align: left;
 		font-size: 18px;
@@ -489,21 +481,18 @@ p
 		  font-weight: 300;
 	  }
 	.grid-container2 {
-		display: flex;
 		grid-template-columns: auto auto auto;
 		grid-gap: 8px;
 		background-color: #fafaf7;
 		  color: #1b1814;
 	  }
 	  .grid-container2 > div {
-		display: flex;
 		background-color: #fafaf7;
 		text-align: left;
 		  letter-spacing: 1px;
 		  font-weight: 300;
 	  }
 	  .grid-container3 {
-		display: flex;
 		grid-template-columns: auto auto auto;
 		grid-gap: 20px;
 		background-color: #fafaf7;
@@ -584,15 +573,12 @@ p
 		margin: auto;
 	  }
 	  .grid-container {
-		display: flex;
 		grid-template-columns: auto auto auto;
 		grid-gap: 8px;
 		background-color: #fafaf7;
 		  color: #eee7e4;
 	  }
 	  .grid-container > div {
-		display: flex;
-		flex-wrap: nowrap;
 		background-color: #fafaf7;
 		text-align: left;
 		font-size: 18px;
@@ -600,21 +586,18 @@ p
 		  font-weight: 300;
 	  }
 	.grid-container2 {
-		display: flex;
 		grid-template-columns: auto auto auto;
 		grid-gap: 8px;
 		background-color: #fafaf7;
 		  color: #1b1814;
 	  }
 	  .grid-container2 > div {
-		display: flex;
 		background-color: #fafaf7;
 		text-align: left;
 		  letter-spacing: 1px;
 		  font-weight: 300;
 	  }
 	  .grid-container3 {
-		display: flex;
 		grid-template-columns: auto auto auto;
 		grid-gap: 20px;
 		background-color: #fafaf7;
