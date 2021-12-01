@@ -5,6 +5,7 @@
   body {
 	margin: auto;
 	max-width: 80%;
+	background-color: #83806d;
   }
 
   .header {
@@ -296,7 +297,7 @@ p
 	font-weight: 500;
 }
 .footer {
-	background-color: #6b6a6a;
+	background-color: black;
 	text-align: center;
 	color: white;
 	padding: 10px;
