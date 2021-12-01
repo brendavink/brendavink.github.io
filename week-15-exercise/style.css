@@ -66,12 +66,8 @@
 	margin: auto;
   }
   .grid-container {
-	  display: grid;
+	display: grid;
 	grid-template-columns: auto auto auto;
-	grid-gap: 8px;
-	background-color: #fafaf7;
-	padding: 20px;
-	  color: #eee7e4;
   }
   .item1 {
 	grid-column: 1 / 5;
@@ -372,12 +368,9 @@ p
 	padding: 40px;
 	margin: auto;
   }
-  .grid-container {
-
-	grid-gap: 8px;
-	background-color: #fafaf7;
-	  color: #eee7e4;
-  }
+	.grid-container {
+		grid-template-columns: auto auto auto;
+	  }
 
 /*Media Queries*/
 @media screen and (max-width: 600px) {
@@ -389,10 +382,7 @@ p
 		margin: auto;
 	  }
 	  .grid-container {
-	
-		grid-gap: 8px;
-		background-color: #fafaf7;
-		  color: #eee7e4;
+		grid-template-columns: auto auto auto;
 	  }
 
 h1
@@ -471,11 +461,7 @@ p
 		width: auto;
 	  }
 	  .grid-container {
-
-		grid-gap: 8px;
-		background-color: #fafaf7;
-		  color: #eee7e4;
-		  width: auto;
+		grid-template-columns: auto auto auto;
 	  }
 
 	.topnav.responsive {
