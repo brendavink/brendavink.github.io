@@ -307,21 +307,22 @@ h1
 h2
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
-	line-height: 25px;
+	font-size: 30px;
+	line-height: 35px;
 	font-weight: 600;
 	color: black;
 }
 p
 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
-	line-height: 20px;
+	font-size: 18px;
+	line-height: 25px;
 	font-weight: 500;
 }
 .footer {
 	background-color: #6b6a6a;
 	text-align: center;
+	color: white;
 	padding: 10px;
   }
   
