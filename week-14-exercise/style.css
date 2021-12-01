@@ -388,14 +388,12 @@ p
 	margin: auto;
   }
   .grid-container {
-	  display: flex-wrap: wrap;
 	grid-template-columns: none;
 	grid-gap: 8px;
 	background-color: #fafaf7;
 	  color: #eee7e4;
   }
 .grid-container2 {
-	display: flex-wrap: wrap;
 	grid-template-columns: none;
 	grid-gap: 8px;
 	background-color: #fafaf7;
