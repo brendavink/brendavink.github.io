@@ -5,6 +5,7 @@
   body {
 	margin: 0;
 	max-width: 80%;
+	align-items: center;
   }
   
   /* Style the header */
@@ -98,53 +99,6 @@
   
   .topnav .search-container button:hover {
 	background: #fafaf7;
-  }
-  
-  .grid-container image{
-	grid-template-columns: auto auto auto;
-	grid-gap: 0px;
-	background-image: url('images/hero-image.jpg');
-	padding: 40px;
-	margin: auto;
-  }
-  .grid-container {
-	display: grid;
-	grid-template-columns: auto auto auto;
-  }
-  .item1 {
-	grid-column: 1 / 5;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	font-weight: 600;
-  }
-  .item2 { 
-	  grid-column: 1 / 2; 
-	  padding: 20px;
-	  font-weight: 600;
-  }
-  .item3 {
-	  grid-column: 2 / 3;
-	  padding: 20px;
-	  font-weight: 600;
-  }
-  .item4 { 
-	  grid-column: 3 / 4; 
-	  padding: 20px;
-	  font-weight: 600;
-  }
-  .item5 { 
-	  grid-column: 1 / 5; 
-	  font-weight: 600;
-	  padding: 20px;
-  }
-  .row {
-	  background-color: #f1f1f1;
-  }
-  .row:after {
-	  background-color: #f1f1f1;
-	content: "";
-	display: table;
-	clear: both;
   }
 .slideshow-container {
   position: relative;
