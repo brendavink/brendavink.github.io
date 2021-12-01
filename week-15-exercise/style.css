@@ -321,17 +321,11 @@ p
 	line-height: 20px;
 	font-weight: 500;
 }
-.copyright {
+.footer {
+	background-color: #6b6a6a;
 	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 10px;
-	background-color: #fafaf7;
-	color: black;
-	text-transform: uppercase;
-	font-weight: lighter;
-	letter-spacing: 2px;
-	border-top-width: 2px;
-}
+	padding: 10px;
+  }
   
 @media screen and (max-width: 650px) 
 	{
