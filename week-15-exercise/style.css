@@ -339,6 +339,11 @@ p
 	.column {
 		width: 100%;
 	  }
+	  .header {
+		background-image: url('images/hero-image-mobile-500x968.jpg');
+		padding: 10px;
+		text-align: center;
+	  }
 h1
 {
 	font-family: 'Open Sans', sans-serif;
@@ -409,7 +414,11 @@ p
 	.column {
 		width: 100%;
 	  }
-
+	  .header {
+		background-image: url('images/hero-image-mobile-500x968.jpg');
+		padding: 10px;
+		text-align: center;
+	  }
 	.topnav.responsive {
 		position: relative;
 	}
